@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>优选资源库 - 精选软件 · 系统工具 · 游戏资源，一站下载</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-home">
+
+<!-- 滚动进度条 -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- 背景光斑（视差） -->
+<div class="bg-blobs" id="bgBlobs">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<!-- ======== Hero 首屏 ======== -->
+<header class="hero">
+  <div class="hero-inner">
+    <p class="hero-badge reveal">FRESH · CLEAN · FREE</p>
+    <h1 class="hero-title reveal" data-delay="1">优选资源库</h1>
+    <p class="hero-sub reveal" data-delay="2">由个人维护的资源合集，资源实时同步更新</p>
+    <div class="hero-mouse reveal" data-delay="3" aria-hidden="true">
+      <div class="mouse-body"><div class="mouse-wheel"></div></div>
+      <span class="mouse-text">向下滚动</span>
+    </div>
+  </div>
+</header>
+
+<!-- ======== 卡片模块 ======== -->
+<main class="cards-section">
+  <div class="container">
+    <div class="cards-grid">
+      <!-- 介绍卡片（占位） -->
+      <section class="card glass reveal" data-delay="1">
+        <div class="card-icon icon-intro">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <h2>介绍</h2>
+        <p class="card-desc">关于优选资源库的介绍内容</p>
+        <div class="placeholder-note">内容筹备中…</div>
+      </section>
+
+      <!-- 下载卡片 -->
+      <section class="card glass card-highlight reveal" data-delay="2">
+        <div class="card-icon icon-download">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </div>
+        <h2>下载</h2>
+        <p class="card-desc">进入资源集合库，浏览并下载精选资源</p>
+        <a class="btn btn-primary btn-glow" href="library.html">
+          进入资源库
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </section>
+
+      <!-- 自创软件卡片 -->
+      <section class="card glass reveal" data-delay="3">
+        <div class="card-icon icon-soft">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <h2>自创软件</h2>
+        <p class="card-desc">我自己开发的软件，简约实用，欢迎下载体验</p>
+        <div class="soft-list">
+          <div class="soft-item">
+            <div class="soft-info">
+              <div class="soft-name">MC 启动器</div>
+              <div class="soft-desc">简约功能丰富的 Minecraft 启动器，支持联机下载、游戏下载、Java 启动与一键启动游戏，玩 MC 的得力助手。约 40 MB</div>
+            </div>
+            <a class="soft-dl" href="/download/自制软件/NovaLauncher_Setup.exe">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              下载
+            </a>
+          </div>
+          <div class="soft-item">
+            <div class="soft-info">
+              <div class="soft-name">播放器</div>
+              <div class="soft-desc">可播放视频和音乐的多格式播放器，界面简约干净美观，主流格式通吃。约 162 MB</div>
+            </div>
+            <a class="soft-dl" href="/download/自制软件/setup.exe">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              下载
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 音乐库卡片 -->
+      <section class="card glass reveal" data-delay="4">
+        <div class="card-icon icon-music">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <h2>音乐库</h2>
+        <p class="card-desc">免费下载与在线听音乐，悬停音乐条目即可播放或下载</p>
+        <a class="btn btn-primary btn-glow" href="music.html">
+          进入音乐库
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </section>
+    </div>
+  </div>
+</main>
+
+<!-- ======== 页脚 ======== -->
+<footer class="footer reveal">
+  <div class="container">
+    <p id="footerStats" class="footer-stats">正在读取资源统计…</p>
+    <p class="footer-note">优选资源库 · 清新简约 · 实时同步</p>
+  </div>
+</footer>
+
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

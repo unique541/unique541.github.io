@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>资源详情 - 优选资源库</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-detail">
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="bg-blobs bg-blobs-dim" id="bgBlobs">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<!-- 顶部导航 -->
+<nav class="topnav glass">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">优选资源库</a>
+    <a class="nav-back" href="library.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      返回资源库
+    </a>
+  </div>
+</nav>
+
+<main class="container page-main">
+
+  <!-- 加载中 -->
+  <div class="loading-wrap" id="loadingWrap">
+    <div class="spinner"></div>
+    <p>正在加载资源详情…</p>
+  </div>
+
+  <!-- 404 -->
+  <div class="empty-state" id="notFound" hidden>
+    <div class="empty-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+    </div>
+    <p class="empty-title">资源不存在</p>
+    <p class="empty-sub">该资源可能已被移除或链接有误</p>
+    <a class="btn btn-primary" href="library.html">返回资源库</a>
+  </div>
+
+  <!-- 详情内容 -->
+  <div id="detailContent" hidden>
+    <article class="detail-card glass reveal">
+      <div class="detail-head">
+        <div>
+          <span class="tag tag-category" id="dCategory"></span>
+          <span class="tag tag-type" id="dType"></span>
+        </div>
+        <h1 id="dName"></h1>
+        <p class="detail-desc" id="dDesc"></p>
+      </div>
+
+      <div class="detail-meta">
+        <div class="meta-item"><span class="meta-label">大小</span><span class="meta-value" id="dSize"></span></div>
+        <div class="meta-item"><span class="meta-label">类型</span><span class="meta-value" id="dType2"></span></div>
+        <div class="meta-item"><span class="meta-label">修改时间</span><span class="meta-value" id="dMtime"></span></div>
+        <div class="meta-item"><span class="meta-label">路径</span><span class="meta-value meta-path" id="dPath"></span></div>
+      </div>
+
+      <div class="detail-intro" id="dIntro"></div>
+
+      <!-- 下载区 -->
+      <div class="download-zone" id="dDownloadZone"></div>
+
+      <!-- 文件夹内部文件列表 -->
+      <div id="dInnerList" hidden>
+        <h3 class="section-subtitle">文件夹内部文件</h3>
+        <p class="inner-hint">以下文件均可直接点击下载</p>
+        <div class="inner-files" id="dInnerFiles"></div>
+      </div>
+    </article>
+
+    <!-- 相关推荐 -->
+    <section class="related" id="relatedWrap" hidden>
+      <h3 class="section-title">相关推荐</h3>
+      <div class="cards-grid cards-grid-small" id="relatedList"></div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p class="footer-note">优选资源库 · 刷新页面即同步最新资源</p>
+  </div>
+</footer>
+
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/detail.js"></script>
+</body>
+</html>

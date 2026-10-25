@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>资源集合库 - 优选资源库</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-library">
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="bg-blobs bg-blobs-dim" id="bgBlobs">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<!-- 顶部导航 -->
+<nav class="topnav glass">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">优选资源库</a>
+    <a class="nav-back" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      返回主页
+    </a>
+  </div>
+</nav>
+
+<main class="container page-main">
+  <header class="page-head reveal">
+    <h1>资源集合库</h1>
+    <p class="page-sub">由站长维护的资源合集，资源实时同步更新</p>
+  </header>
+
+  <!-- 搜索框 -->
+  <div class="search-bar glass reveal" data-delay="1">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" id="searchInput" placeholder="搜索资源名称 / 分类 / 类型，如：系统、MC、exe…" autocomplete="off">
+    <span class="search-count" id="searchCount"></span>
+  </div>
+
+  <!-- 加载中 -->
+  <div class="loading-wrap" id="loadingWrap">
+    <div class="spinner"></div>
+    <p>正在加载资源列表…</p>
+  </div>
+
+  <!-- 空状态 -->
+  <div class="empty-state" id="emptyState" hidden>
+    <div class="empty-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+    </div>
+    <p class="empty-title">未找到相关资源</p>
+    <p class="empty-sub">换个关键词试试，例如「系统」「MC」「office」</p>
+  </div>
+
+  <!-- 分类分区 -->
+  <div id="categorySections"></div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p class="footer-note">优选资源库 · 刷新页面即同步最新资源</p>
+  </div>
+</footer>
+
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/library.js"></script>
+</body>
+</html>

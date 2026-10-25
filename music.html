@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>音乐库 - 优选资源库</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-music">
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="bg-blobs bg-blobs-dim" id="bgBlobs">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<!-- 顶部导航 -->
+<nav class="topnav glass">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">优选资源库</a>
+    <a class="nav-back" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      返回主页
+    </a>
+  </div>
+</nav>
+
+<main class="container page-main">
+  <header class="page-head reveal">
+    <h1>音乐库</h1>
+    <p class="page-sub">免费在线听歌 · 随时下载收藏</p>
+  </header>
+
+  <!-- 搜索框 -->
+  <div class="search-bar glass reveal" data-delay="1">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" id="musicSearchInput" placeholder="搜索歌曲名称，如：海阔天空、周杰伦…" autocomplete="off">
+    <span class="search-count" id="musicSearchCount"></span>
+  </div>
+
+  <p class="music-hint reveal" data-delay="1">悬停音乐条目即可播放 / 下载，放入新歌曲后刷新页面自动同步</p>
+
+  <!-- 加载中 -->
+  <div class="loading-wrap" id="loadingWrap">
+    <div class="spinner"></div>
+    <p>正在扫描音乐文件夹…</p>
+  </div>
+
+  <!-- 空状态 -->
+  <div class="empty-state" id="emptyState" hidden>
+    <div class="empty-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+    </div>
+    <p class="empty-title">音乐文件夹是空的</p>
+    <p class="empty-sub">将音频文件放入网站目录下的「音乐」文件夹后刷新本页</p>
+  </div>
+
+  <!-- 音乐列表 -->
+  <div class="music-list" id="musicList"></div>
+</main>
+
+<!-- 底部迷你播放器 -->
+<div class="music-player-bar" id="musicPlayerBar" hidden>
+  <span class="music-player-name" id="musicPlayerName"></span>
+  <audio id="musicAudio" controls autoplay></audio>
+  <button class="music-player-close" id="musicPlayerClose" title="关闭播放器" aria-label="关闭播放器">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="footer-note">优选资源库 · 音乐随放随下 · 实时同步</p>
+  </div>
+</footer>
+
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/music.js"></script>
+</body>
+</html>
