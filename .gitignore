@@ -7,3 +7,9 @@
 # Python 缓存
 __pycache__/
 *.py[cod]
+
+# downloads/ 实体文件合计约 54 GB（音乐 14.8 GB + 28 个合集 39.5 GB）
+# GitHub 单文件上限 100 MB，仓库与 Pages 容量也远小于此，无法提交
+# 只跟踪用于保留目录的占位文件；实体文件请放到对象存储/网盘，并把快照 URL 改为外部地址
+downloads/*
+!downloads/.gitkeep

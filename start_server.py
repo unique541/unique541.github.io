@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
-优选资源库 - 本地下载服务
+breezebox - 本地下载服务
 =================================
 纯 Python 标准库实现，无需安装任何第三方依赖。
 
@@ -718,7 +718,7 @@ def main():
     ip = get_lan_ip()
     print()
     print("=" * 56)
-    print("  优选资源库 已启动")
+    print("  breezebox 已启动")
     print("  - 本机访问:   http://127.0.0.1:%d" % PORT)
     print("  - 局域网访问: http://%s:%d" % (ip, PORT))
     print("  - 资源接口:   http://127.0.0.1:%d/api/resources" % PORT)

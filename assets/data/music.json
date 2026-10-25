@@ -1,0 +1,2290 @@
+[
+  {
+    "name": "2_23 AM - しゃろう.flac",
+    "rel_path": "音乐/2_23 AM - しゃろう.flac",
+    "size": 63362907,
+    "size_text": "60.4 MB",
+    "play_url": "downloads/音乐/2_23 AM - しゃろう.flac",
+    "download_url": "downloads/音乐/2_23 AM - しゃろう.flac"
+  },
+  {
+    "name": "3_03 PM - しゃろう.flac",
+    "rel_path": "音乐/3_03 PM - しゃろう.flac",
+    "size": 48885435,
+    "size_text": "46.6 MB",
+    "play_url": "downloads/音乐/3_03 PM - しゃろう.flac",
+    "download_url": "downloads/音乐/3_03 PM - しゃろう.flac"
+  },
+  {
+    "name": "Abyss - Dead House.flac",
+    "rel_path": "音乐/Abyss - Dead House.flac",
+    "size": 58431944,
+    "size_text": "55.7 MB",
+    "play_url": "downloads/音乐/Abyss - Dead House.flac",
+    "download_url": "downloads/音乐/Abyss - Dead House.flac"
+  },
+  {
+    "name": "Accent pulse FUNK(Teto重音) - BOY.flac",
+    "rel_path": "音乐/Accent pulse FUNK(Teto重音) - BOY.flac",
+    "size": 61406973,
+    "size_text": "58.6 MB",
+    "play_url": "downloads/音乐/Accent pulse FUNK(Teto重音) - BOY.flac",
+    "download_url": "downloads/音乐/Accent pulse FUNK(Teto重音) - BOY.flac"
+  },
+  {
+    "name": "AGUDO MAGKLCO (GHETTO HOUSE) - FinalSay.flac",
+    "rel_path": "音乐/AGUDO MAGKLCO (GHETTO HOUSE) - FinalSay.flac",
+    "size": 38749779,
+    "size_text": "37.0 MB",
+    "play_url": "downloads/音乐/AGUDO MAGKLCO (GHETTO HOUSE) - FinalSay.flac",
+    "download_url": "downloads/音乐/AGUDO MAGKLCO (GHETTO HOUSE) - FinalSay.flac"
+  },
+  {
+    "name": "Astronomia - Tony Igy、Vicetone.flac",
+    "rel_path": "音乐/Astronomia - Tony Igy、Vicetone.flac",
+    "size": 86295870,
+    "size_text": "82.3 MB",
+    "play_url": "downloads/音乐/Astronomia - Tony Igy、Vicetone.flac",
+    "download_url": "downloads/音乐/Astronomia - Tony Igy、Vicetone.flac"
+  },
+  {
+    "name": "Bipolar Heart - Adam Turley、Jordan Jack.mp3",
+    "rel_path": "音乐/Bipolar Heart - Adam Turley、Jordan Jack.mp3",
+    "size": 7850804,
+    "size_text": "7.5 MB",
+    "play_url": "downloads/音乐/Bipolar Heart - Adam Turley、Jordan Jack.mp3",
+    "download_url": "downloads/音乐/Bipolar Heart - Adam Turley、Jordan Jack.mp3"
+  },
+  {
+    "name": "Brainiac Maniac - Laura Shigihara.flac",
+    "rel_path": "音乐/Brainiac Maniac - Laura Shigihara.flac",
+    "size": 35504451,
+    "size_text": "33.9 MB",
+    "play_url": "downloads/音乐/Brainiac Maniac - Laura Shigihara.flac",
+    "download_url": "downloads/音乐/Brainiac Maniac - Laura Shigihara.flac"
+  },
+  {
+    "name": "Bye Bye Baby Blue - MerrinZephyr.mp3",
+    "rel_path": "音乐/Bye Bye Baby Blue - MerrinZephyr.mp3",
+    "size": 5290384,
+    "size_text": "5.0 MB",
+    "play_url": "downloads/音乐/Bye Bye Baby Blue - MerrinZephyr.mp3",
+    "download_url": "downloads/音乐/Bye Bye Baby Blue - MerrinZephyr.mp3"
+  },
+  {
+    "name": "C_Aurora - Anming_cat.flac",
+    "rel_path": "音乐/C_Aurora - Anming_cat.flac",
+    "size": 56755453,
+    "size_text": "54.1 MB",
+    "play_url": "downloads/音乐/C_Aurora - Anming_cat.flac",
+    "download_url": "downloads/音乐/C_Aurora - Anming_cat.flac"
+  },
+  {
+    "name": "Call Me Now - Michael Calfan、INNA.flac",
+    "rel_path": "音乐/Call Me Now - Michael Calfan、INNA.flac",
+    "size": 59617113,
+    "size_text": "56.9 MB",
+    "play_url": "downloads/音乐/Call Me Now - Michael Calfan、INNA.flac",
+    "download_url": "downloads/音乐/Call Me Now - Michael Calfan、INNA.flac"
+  },
+  {
+    "name": "Call of Silence - Haru.flac",
+    "rel_path": "音乐/Call of Silence - Haru.flac",
+    "size": 60140624,
+    "size_text": "57.4 MB",
+    "play_url": "downloads/音乐/Call of Silence - Haru.flac",
+    "download_url": "downloads/音乐/Call of Silence - Haru.flac"
+  },
+  {
+    "name": "Call You Nada( PHONK) - SHSK、Kelvin.flac",
+    "rel_path": "音乐/Call You Nada( PHONK) - SHSK、Kelvin.flac",
+    "size": 49888318,
+    "size_text": "47.6 MB",
+    "play_url": "downloads/音乐/Call You Nada( PHONK) - SHSK、Kelvin.flac",
+    "download_url": "downloads/音乐/Call You Nada( PHONK) - SHSK、Kelvin.flac"
+  },
+  {
+    "name": "Call You Nada( PHONK) - SHSK、NCTM.mp3",
+    "rel_path": "音乐/Call You Nada( PHONK) - SHSK、NCTM.mp3",
+    "size": 5375454,
+    "size_text": "5.1 MB",
+    "play_url": "downloads/音乐/Call You Nada( PHONK) - SHSK、NCTM.mp3",
+    "download_url": "downloads/音乐/Call You Nada( PHONK) - SHSK、NCTM.mp3"
+  },
+  {
+    "name": "China-A - 徐梦圆.flac",
+    "rel_path": "音乐/China-A - 徐梦圆.flac",
+    "size": 81831539,
+    "size_text": "78.0 MB",
+    "play_url": "downloads/音乐/China-A - 徐梦圆.flac",
+    "download_url": "downloads/音乐/China-A - 徐梦圆.flac"
+  },
+  {
+    "name": "China-E - 徐梦圆.flac",
+    "rel_path": "音乐/China-E - 徐梦圆.flac",
+    "size": 74761415,
+    "size_text": "71.3 MB",
+    "play_url": "downloads/音乐/China-E - 徐梦圆.flac",
+    "download_url": "downloads/音乐/China-E - 徐梦圆.flac"
+  },
+  {
+    "name": "China-G - 徐梦圆.flac",
+    "rel_path": "音乐/China-G - 徐梦圆.flac",
+    "size": 92269374,
+    "size_text": "88.0 MB",
+    "play_url": "downloads/音乐/China-G - 徐梦圆.flac",
+    "download_url": "downloads/音乐/China-G - 徐梦圆.flac"
+  },
+  {
+    "name": "China-M - 徐梦圆.flac",
+    "rel_path": "音乐/China-M - 徐梦圆.flac",
+    "size": 75583257,
+    "size_text": "72.1 MB",
+    "play_url": "downloads/音乐/China-M - 徐梦圆.flac",
+    "download_url": "downloads/音乐/China-M - 徐梦圆.flac"
+  },
+  {
+    "name": "China-P - 徐梦圆.flac",
+    "rel_path": "音乐/China-P - 徐梦圆.flac",
+    "size": 83354166,
+    "size_text": "79.5 MB",
+    "play_url": "downloads/音乐/China-P - 徐梦圆.flac",
+    "download_url": "downloads/音乐/China-P - 徐梦圆.flac"
+  },
+  {
+    "name": "China-X - 徐梦圆.flac",
+    "rel_path": "音乐/China-X - 徐梦圆.flac",
+    "size": 74234660,
+    "size_text": "70.8 MB",
+    "play_url": "downloads/音乐/China-X - 徐梦圆.flac",
+    "download_url": "downloads/音乐/China-X - 徐梦圆.flac"
+  },
+  {
+    "name": "color-X - 徐梦圆.flac",
+    "rel_path": "音乐/color-X - 徐梦圆.flac",
+    "size": 85695825,
+    "size_text": "81.7 MB",
+    "play_url": "downloads/音乐/color-X - 徐梦圆.flac",
+    "download_url": "downloads/音乐/color-X - 徐梦圆.flac"
+  },
+  {
+    "name": "Cornfield Chase - Hans Zimmer.flac",
+    "rel_path": "音乐/Cornfield Chase - Hans Zimmer.flac",
+    "size": 41653362,
+    "size_text": "39.7 MB",
+    "play_url": "downloads/音乐/Cornfield Chase - Hans Zimmer.flac",
+    "download_url": "downloads/音乐/Cornfield Chase - Hans Zimmer.flac"
+  },
+  {
+    "name": "Counting Stars - OneRepublic.flac",
+    "rel_path": "音乐/Counting Stars - OneRepublic.flac",
+    "size": 99967244,
+    "size_text": "95.3 MB",
+    "play_url": "downloads/音乐/Counting Stars - OneRepublic.flac",
+    "download_url": "downloads/音乐/Counting Stars - OneRepublic.flac"
+  },
+  {
+    "name": "Curly Wurly - Thomas Greenberg.flac",
+    "rel_path": "音乐/Curly Wurly - Thomas Greenberg.flac",
+    "size": 34171535,
+    "size_text": "32.6 MB",
+    "play_url": "downloads/音乐/Curly Wurly - Thomas Greenberg.flac",
+    "download_url": "downloads/音乐/Curly Wurly - Thomas Greenberg.flac"
+  },
+  {
+    "name": "Cute Circus - Tsundere Twintails.flac",
+    "rel_path": "音乐/Cute Circus - Tsundere Twintails.flac",
+    "size": 63459224,
+    "size_text": "60.5 MB",
+    "play_url": "downloads/音乐/Cute Circus - Tsundere Twintails.flac",
+    "download_url": "downloads/音乐/Cute Circus - Tsundere Twintails.flac"
+  },
+  {
+    "name": "Daytime Funtime - Paul Borg、Sandor Jozsa.flac",
+    "rel_path": "音乐/Daytime Funtime - Paul Borg、Sandor Jozsa.flac",
+    "size": 37595089,
+    "size_text": "35.9 MB",
+    "play_url": "downloads/音乐/Daytime Funtime - Paul Borg、Sandor Jozsa.flac",
+    "download_url": "downloads/音乐/Daytime Funtime - Paul Borg、Sandor Jozsa.flac"
+  },
+  {
+    "name": "Dehors - JORDANN.flac",
+    "rel_path": "音乐/Dehors - JORDANN.flac",
+    "size": 67799645,
+    "size_text": "64.7 MB",
+    "play_url": "downloads/音乐/Dehors - JORDANN.flac",
+    "download_url": "downloads/音乐/Dehors - JORDANN.flac"
+  },
+  {
+    "name": "doodle - Zachz Winner.flac",
+    "rel_path": "音乐/doodle - Zachz Winner.flac",
+    "size": 28054785,
+    "size_text": "26.8 MB",
+    "play_url": "downloads/音乐/doodle - Zachz Winner.flac",
+    "download_url": "downloads/音乐/doodle - Zachz Winner.flac"
+  },
+  {
+    "name": "DREAM FUNK! (课代表袭击你) - CVRCH、Liberty、Yilu7i、freezepain.flac",
+    "rel_path": "音乐/DREAM FUNK! (课代表袭击你) - CVRCH、Liberty、Yilu7i、freezepain.flac",
+    "size": 35029024,
+    "size_text": "33.4 MB",
+    "play_url": "downloads/音乐/DREAM FUNK! (课代表袭击你) - CVRCH、Liberty、Yilu7i、freezepain.flac",
+    "download_url": "downloads/音乐/DREAM FUNK! (课代表袭击你) - CVRCH、Liberty、Yilu7i、freezepain.flac"
+  },
+  {
+    "name": "Dream Land Days - Kirby's Dream Band.flac",
+    "rel_path": "音乐/Dream Land Days - Kirby's Dream Band.flac",
+    "size": 89275280,
+    "size_text": "85.1 MB",
+    "play_url": "downloads/音乐/Dream Land Days - Kirby's Dream Band.flac",
+    "download_url": "downloads/音乐/Dream Land Days - Kirby's Dream Band.flac"
+  },
+  {
+    "name": "Earth - Tangent.flac",
+    "rel_path": "音乐/Earth - Tangent.flac",
+    "size": 60511926,
+    "size_text": "57.7 MB",
+    "play_url": "downloads/音乐/Earth - Tangent.flac",
+    "download_url": "downloads/音乐/Earth - Tangent.flac"
+  },
+  {
+    "name": "Empty Love (feat. Kid Princess) - Lulleaux、Kid Princess.flac",
+    "rel_path": "音乐/Empty Love (feat. Kid Princess) - Lulleaux、Kid Princess.flac",
+    "size": 65883495,
+    "size_text": "62.8 MB",
+    "play_url": "downloads/音乐/Empty Love (feat. Kid Princess) - Lulleaux、Kid Princess.flac",
+    "download_url": "downloads/音乐/Empty Love (feat. Kid Princess) - Lulleaux、Kid Princess.flac"
+  },
+  {
+    "name": "Endless - Lena Raine、Minecraft.flac",
+    "rel_path": "音乐/Endless - Lena Raine、Minecraft.flac",
+    "size": 128560218,
+    "size_text": "122.6 MB",
+    "play_url": "downloads/音乐/Endless - Lena Raine、Minecraft.flac",
+    "download_url": "downloads/音乐/Endless - Lena Raine、Minecraft.flac"
+  },
+  {
+    "name": "Episode 33 - She Her Her Hers.flac",
+    "rel_path": "音乐/Episode 33 - She Her Her Hers.flac",
+    "size": 97916888,
+    "size_text": "93.4 MB",
+    "play_url": "downloads/音乐/Episode 33 - She Her Her Hers.flac",
+    "download_url": "downloads/音乐/Episode 33 - She Her Her Hers.flac"
+  },
+  {
+    "name": "Escape - Dripice.flac",
+    "rel_path": "音乐/Escape - Dripice.flac",
+    "size": 73041804,
+    "size_text": "69.7 MB",
+    "play_url": "downloads/音乐/Escape - Dripice.flac",
+    "download_url": "downloads/音乐/Escape - Dripice.flac"
+  },
+  {
+    "name": "Everything's Good - Phil Good.flac",
+    "rel_path": "音乐/Everything's Good - Phil Good.flac",
+    "size": 65919127,
+    "size_text": "62.9 MB",
+    "play_url": "downloads/音乐/Everything's Good - Phil Good.flac",
+    "download_url": "downloads/音乐/Everything's Good - Phil Good.flac"
+  },
+  {
+    "name": "Fade - Alan Walker.flac",
+    "rel_path": "音乐/Fade - Alan Walker.flac",
+    "size": 107334175,
+    "size_text": "102.4 MB",
+    "play_url": "downloads/音乐/Fade - Alan Walker.flac",
+    "download_url": "downloads/音乐/Fade - Alan Walker.flac"
+  },
+  {
+    "name": "Faded - Alan Walker.flac",
+    "rel_path": "音乐/Faded - Alan Walker.flac",
+    "size": 87403307,
+    "size_text": "83.4 MB",
+    "play_url": "downloads/音乐/Faded - Alan Walker.flac",
+    "download_url": "downloads/音乐/Faded - Alan Walker.flac"
+  },
+  {
+    "name": "Fatal Love (伴奏) - 我无记忆.flac",
+    "rel_path": "音乐/Fatal Love (伴奏) - 我无记忆.flac",
+    "size": 67639328,
+    "size_text": "64.5 MB",
+    "play_url": "downloads/音乐/Fatal Love (伴奏) - 我无记忆.flac",
+    "download_url": "downloads/音乐/Fatal Love (伴奏) - 我无记忆.flac"
+  },
+  {
+    "name": "Fire Emblem - RJ Pasin.flac",
+    "rel_path": "音乐/Fire Emblem - RJ Pasin.flac",
+    "size": 27063770,
+    "size_text": "25.8 MB",
+    "play_url": "downloads/音乐/Fire Emblem - RJ Pasin.flac",
+    "download_url": "downloads/音乐/Fire Emblem - RJ Pasin.flac"
+  },
+  {
+    "name": "first time - NAYARA NEI P.flac",
+    "rel_path": "音乐/first time - NAYARA NEI P.flac",
+    "size": 40307610,
+    "size_text": "38.4 MB",
+    "play_url": "downloads/音乐/first time - NAYARA NEI P.flac",
+    "download_url": "downloads/音乐/first time - NAYARA NEI P.flac"
+  },
+  {
+    "name": "Fluffing a Duck - Kevin MacLeod.flac",
+    "rel_path": "音乐/Fluffing a Duck - Kevin MacLeod.flac",
+    "size": 21464628,
+    "size_text": "20.5 MB",
+    "play_url": "downloads/音乐/Fluffing a Duck - Kevin MacLeod.flac",
+    "download_url": "downloads/音乐/Fluffing a Duck - Kevin MacLeod.flac"
+  },
+  {
+    "name": "Fractures - ILLENIUM、Nevve.flac",
+    "rel_path": "音乐/Fractures - ILLENIUM、Nevve.flac",
+    "size": 103349687,
+    "size_text": "98.6 MB",
+    "play_url": "downloads/音乐/Fractures - ILLENIUM、Nevve.flac",
+    "download_url": "downloads/音乐/Fractures - ILLENIUM、Nevve.flac"
+  },
+  {
+    "name": "Frolic (Theme from _Curb Your Enthusiasm_ TV Show) - Luciano Michelini.flac",
+    "rel_path": "音乐/Frolic (Theme from _Curb Your Enthusiasm_ TV Show) - Luciano Michelini.flac",
+    "size": 74607102,
+    "size_text": "71.2 MB",
+    "play_url": "downloads/音乐/Frolic (Theme from _Curb Your Enthusiasm_ TV Show) - Luciano Michelini.flac",
+    "download_url": "downloads/音乐/Frolic (Theme from _Curb Your Enthusiasm_ TV Show) - Luciano Michelini.flac"
+  },
+  {
+    "name": "frwe - Ex_IbRYM.flac",
+    "rel_path": "音乐/frwe - Ex_IbRYM.flac",
+    "size": 99728764,
+    "size_text": "95.1 MB",
+    "play_url": "downloads/音乐/frwe - Ex_IbRYM.flac",
+    "download_url": "downloads/音乐/frwe - Ex_IbRYM.flac"
+  },
+  {
+    "name": "Funk Caravan - Mango Audio.flac",
+    "rel_path": "音乐/Funk Caravan - Mango Audio.flac",
+    "size": 49955397,
+    "size_text": "47.6 MB",
+    "play_url": "downloads/音乐/Funk Caravan - Mango Audio.flac",
+    "download_url": "downloads/音乐/Funk Caravan - Mango Audio.flac"
+  },
+  {
+    "name": "Future Funk - Varien.flac",
+    "rel_path": "音乐/Future Funk - Varien.flac",
+    "size": 49767443,
+    "size_text": "47.5 MB",
+    "play_url": "downloads/音乐/Future Funk - Varien.flac",
+    "download_url": "downloads/音乐/Future Funk - Varien.flac"
+  },
+  {
+    "name": "Glitz At The Ritz - Jules Gaia.flac",
+    "rel_path": "音乐/Glitz At The Ritz - Jules Gaia.flac",
+    "size": 47979598,
+    "size_text": "45.8 MB",
+    "play_url": "downloads/音乐/Glitz At The Ritz - Jules Gaia.flac",
+    "download_url": "downloads/音乐/Glitz At The Ritz - Jules Gaia.flac"
+  },
+  {
+    "name": "green to blue (Sped Up) - Aurenth.flac",
+    "rel_path": "音乐/green to blue (Sped Up) - Aurenth.flac",
+    "size": 28099573,
+    "size_text": "26.8 MB",
+    "play_url": "downloads/音乐/green to blue (Sped Up) - Aurenth.flac",
+    "download_url": "downloads/音乐/green to blue (Sped Up) - Aurenth.flac"
+  },
+  {
+    "name": "Haggstrom - C418.flac",
+    "rel_path": "音乐/Haggstrom - C418.flac",
+    "size": 60984149,
+    "size_text": "58.2 MB",
+    "play_url": "downloads/音乐/Haggstrom - C418.flac",
+    "download_url": "downloads/音乐/Haggstrom - C418.flac"
+  },
+  {
+    "name": "HANABI - いきものがかり.flac",
+    "rel_path": "音乐/HANABI - いきものがかり.flac",
+    "size": 114385882,
+    "size_text": "109.1 MB",
+    "play_url": "downloads/音乐/HANABI - いきものがかり.flac",
+    "download_url": "downloads/音乐/HANABI - いきものがかり.flac"
+  },
+  {
+    "name": "HARPY HARE - NoAki、Skyver.flac",
+    "rel_path": "音乐/HARPY HARE - NoAki、Skyver.flac",
+    "size": 36037184,
+    "size_text": "34.4 MB",
+    "play_url": "downloads/音乐/HARPY HARE - NoAki、Skyver.flac",
+    "download_url": "downloads/音乐/HARPY HARE - NoAki、Skyver.flac"
+  },
+  {
+    "name": "He's a Pirate - Klaus Badelt.flac",
+    "rel_path": "音乐/He's a Pirate - Klaus Badelt.flac",
+    "size": 34730417,
+    "size_text": "33.1 MB",
+    "play_url": "downloads/音乐/He's a Pirate - Klaus Badelt.flac",
+    "download_url": "downloads/音乐/He's a Pirate - Klaus Badelt.flac"
+  },
+  {
+    "name": "Heavenly Jumpstyle Rock Version - TWXNY、Sxilwix、INNXCENCE、Aaron Kos.flac",
+    "rel_path": "音乐/Heavenly Jumpstyle Rock Version - TWXNY、Sxilwix、INNXCENCE、Aaron Kos.flac",
+    "size": 40758943,
+    "size_text": "38.9 MB",
+    "play_url": "downloads/音乐/Heavenly Jumpstyle Rock Version - TWXNY、Sxilwix、INNXCENCE、Aaron Kos.flac",
+    "download_url": "downloads/音乐/Heavenly Jumpstyle Rock Version - TWXNY、Sxilwix、INNXCENCE、Aaron Kos.flac"
+  },
+  {
+    "name": "Hello - OMFG.flac",
+    "rel_path": "音乐/Hello - OMFG.flac",
+    "size": 97060104,
+    "size_text": "92.6 MB",
+    "play_url": "downloads/音乐/Hello - OMFG.flac",
+    "download_url": "downloads/音乐/Hello - OMFG.flac"
+  },
+  {
+    "name": "Heroes 2.0 - RJ Pasin.flac",
+    "rel_path": "音乐/Heroes 2.0 - RJ Pasin.flac",
+    "size": 52698071,
+    "size_text": "50.3 MB",
+    "play_url": "downloads/音乐/Heroes 2.0 - RJ Pasin.flac",
+    "download_url": "downloads/音乐/Heroes 2.0 - RJ Pasin.flac"
+  },
+  {
+    "name": "Higher - Tobu.flac",
+    "rel_path": "音乐/Higher - Tobu.flac",
+    "size": 90969595,
+    "size_text": "86.8 MB",
+    "play_url": "downloads/音乐/Higher - Tobu.flac",
+    "download_url": "downloads/音乐/Higher - Tobu.flac"
+  },
+  {
+    "name": "His Theme - Toby Fox.mp3",
+    "rel_path": "音乐/His Theme - Toby Fox.mp3",
+    "size": 5107355,
+    "size_text": "4.9 MB",
+    "play_url": "downloads/音乐/His Theme - Toby Fox.mp3",
+    "download_url": "downloads/音乐/His Theme - Toby Fox.mp3"
+  },
+  {
+    "name": "Horizons - Janji.mp3",
+    "rel_path": "音乐/Horizons - Janji.mp3",
+    "size": 8061103,
+    "size_text": "7.7 MB",
+    "play_url": "downloads/音乐/Horizons - Janji.mp3",
+    "download_url": "downloads/音乐/Horizons - Janji.mp3"
+  },
+  {
+    "name": "HOYO-MiX-《崩坏：星穹铁道》× 茶百道联动小曲（remix） - 孙彬.mp3",
+    "rel_path": "音乐/HOYO-MiX-《崩坏：星穹铁道》× 茶百道联动小曲（remix） - 孙彬.mp3",
+    "size": 1944100,
+    "size_text": "1.9 MB",
+    "play_url": "downloads/音乐/HOYO-MiX-《崩坏：星穹铁道》× 茶百道联动小曲（remix） - 孙彬.mp3",
+    "download_url": "downloads/音乐/HOYO-MiX-《崩坏：星穹铁道》× 茶百道联动小曲（remix） - 孙彬.mp3"
+  },
+  {
+    "name": "i have no friends - s0rrow.flac",
+    "rel_path": "音乐/i have no friends - s0rrow.flac",
+    "size": 45232230,
+    "size_text": "43.1 MB",
+    "play_url": "downloads/音乐/i have no friends - s0rrow.flac",
+    "download_url": "downloads/音乐/i have no friends - s0rrow.flac"
+  },
+  {
+    "name": "I Just Wanna Run - The Downtown Fiction.flac",
+    "rel_path": "音乐/I Just Wanna Run - The Downtown Fiction.flac",
+    "size": 82051287,
+    "size_text": "78.3 MB",
+    "play_url": "downloads/音乐/I Just Wanna Run - The Downtown Fiction.flac",
+    "download_url": "downloads/音乐/I Just Wanna Run - The Downtown Fiction.flac"
+  },
+  {
+    "name": "i walk this earth all by myself - Jux.flac",
+    "rel_path": "音乐/i walk this earth all by myself - Jux.flac",
+    "size": 38825509,
+    "size_text": "37.0 MB",
+    "play_url": "downloads/音乐/i walk this earth all by myself - Jux.flac",
+    "download_url": "downloads/音乐/i walk this earth all by myself - Jux.flac"
+  },
+  {
+    "name": "I'm Waiting (Radio Edit) - Stage Rockers.flac",
+    "rel_path": "音乐/I'm Waiting (Radio Edit) - Stage Rockers.flac",
+    "size": 103292469,
+    "size_text": "98.5 MB",
+    "play_url": "downloads/音乐/I'm Waiting (Radio Edit) - Stage Rockers.flac",
+    "download_url": "downloads/音乐/I'm Waiting (Radio Edit) - Stage Rockers.flac"
+  },
+  {
+    "name": "III - Athletics.flac",
+    "rel_path": "音乐/III - Athletics.flac",
+    "size": 130167613,
+    "size_text": "124.1 MB",
+    "play_url": "downloads/音乐/III - Athletics.flac",
+    "download_url": "downloads/音乐/III - Athletics.flac"
+  },
+  {
+    "name": "In The Shadow Of The Sun - Professor Green.flac",
+    "rel_path": "音乐/In The Shadow Of The Sun - Professor Green.flac",
+    "size": 93713379,
+    "size_text": "89.4 MB",
+    "play_url": "downloads/音乐/In The Shadow Of The Sun - Professor Green.flac",
+    "download_url": "downloads/音乐/In The Shadow Of The Sun - Professor Green.flac"
+  },
+  {
+    "name": "Infinity Heaven - HyuN.mp3",
+    "rel_path": "音乐/Infinity Heaven - HyuN.mp3",
+    "size": 7312297,
+    "size_text": "7.0 MB",
+    "play_url": "downloads/音乐/Infinity Heaven - HyuN.mp3",
+    "download_url": "downloads/音乐/Infinity Heaven - HyuN.mp3"
+  },
+  {
+    "name": "Insomnia - Lunak、iphonk.flac",
+    "rel_path": "音乐/Insomnia - Lunak、iphonk.flac",
+    "size": 54874023,
+    "size_text": "52.3 MB",
+    "play_url": "downloads/音乐/Insomnia - Lunak、iphonk.flac",
+    "download_url": "downloads/音乐/Insomnia - Lunak、iphonk.flac"
+  },
+  {
+    "name": "Intro - The xx.flac",
+    "rel_path": "音乐/Intro - The xx.flac",
+    "size": 44244277,
+    "size_text": "42.2 MB",
+    "play_url": "downloads/音乐/Intro - The xx.flac",
+    "download_url": "downloads/音乐/Intro - The xx.flac"
+  },
+  {
+    "name": "laboon - G Sounds.flac",
+    "rel_path": "音乐/laboon - G Sounds.flac",
+    "size": 25869380,
+    "size_text": "24.7 MB",
+    "play_url": "downloads/音乐/laboon - G Sounds.flac",
+    "download_url": "downloads/音乐/laboon - G Sounds.flac"
+  },
+  {
+    "name": "Lake Arrowhead (Radio Mix) - Nora En Pure.flac",
+    "rel_path": "音乐/Lake Arrowhead (Radio Mix) - Nora En Pure.flac",
+    "size": 83451794,
+    "size_text": "79.6 MB",
+    "play_url": "downloads/音乐/Lake Arrowhead (Radio Mix) - Nora En Pure.flac",
+    "download_url": "downloads/音乐/Lake Arrowhead (Radio Mix) - Nora En Pure.flac"
+  },
+  {
+    "name": "Last Promise - raynodon.mp3",
+    "rel_path": "音乐/Last Promise - raynodon.mp3",
+    "size": 6597584,
+    "size_text": "6.3 MB",
+    "play_url": "downloads/音乐/Last Promise - raynodon.mp3",
+    "download_url": "downloads/音乐/Last Promise - raynodon.mp3"
+  },
+  {
+    "name": "life force - ptasinski、RJ Pasin.flac",
+    "rel_path": "音乐/life force - ptasinski、RJ Pasin.flac",
+    "size": 37442806,
+    "size_text": "35.7 MB",
+    "play_url": "downloads/音乐/life force - ptasinski、RJ Pasin.flac",
+    "download_url": "downloads/音乐/life force - ptasinski、RJ Pasin.flac"
+  },
+  {
+    "name": "Life Goes On - Oliver Tree.flac",
+    "rel_path": "音乐/Life Goes On - Oliver Tree.flac",
+    "size": 58800155,
+    "size_text": "56.1 MB",
+    "play_url": "downloads/音乐/Life Goes On - Oliver Tree.flac",
+    "download_url": "downloads/音乐/Life Goes On - Oliver Tree.flac"
+  },
+  {
+    "name": "Lifeline - Zeraphym 六翼使徒.flac",
+    "rel_path": "音乐/Lifeline - Zeraphym 六翼使徒.flac",
+    "size": 115738038,
+    "size_text": "110.4 MB",
+    "play_url": "downloads/音乐/Lifeline - Zeraphym 六翼使徒.flac",
+    "download_url": "downloads/音乐/Lifeline - Zeraphym 六翼使徒.flac"
+  },
+  {
+    "name": "Love Is Gone (Acoustic) - SLANDER、Dylan Matthew.flac",
+    "rel_path": "音乐/Love Is Gone (Acoustic) - SLANDER、Dylan Matthew.flac",
+    "size": 58312862,
+    "size_text": "55.6 MB",
+    "play_url": "downloads/音乐/Love Is Gone (Acoustic) - SLANDER、Dylan Matthew.flac",
+    "download_url": "downloads/音乐/Love Is Gone (Acoustic) - SLANDER、Dylan Matthew.flac"
+  },
+  {
+    "name": "magnolia - keshi.flac",
+    "rel_path": "音乐/magnolia - keshi.flac",
+    "size": 50108123,
+    "size_text": "47.8 MB",
+    "play_url": "downloads/音乐/magnolia - keshi.flac",
+    "download_url": "downloads/音乐/magnolia - keshi.flac"
+  },
+  {
+    "name": "MAIGA - 茸茸.flac",
+    "rel_path": "音乐/MAIGA - 茸茸.flac",
+    "size": 36218039,
+    "size_text": "34.5 MB",
+    "play_url": "downloads/音乐/MAIGA - 茸茸.flac",
+    "download_url": "downloads/音乐/MAIGA - 茸茸.flac"
+  },
+  {
+    "name": "Masked Heroes - Vexento.flac",
+    "rel_path": "音乐/Masked Heroes - Vexento.flac",
+    "size": 73072405,
+    "size_text": "69.7 MB",
+    "play_url": "downloads/音乐/Masked Heroes - Vexento.flac",
+    "download_url": "downloads/音乐/Masked Heroes - Vexento.flac"
+  },
+  {
+    "name": "Masquerade - Lindsey Stirling.flac",
+    "rel_path": "音乐/Masquerade - Lindsey Stirling.flac",
+    "size": 76109151,
+    "size_text": "72.6 MB",
+    "play_url": "downloads/音乐/Masquerade - Lindsey Stirling.flac",
+    "download_url": "downloads/音乐/Masquerade - Lindsey Stirling.flac"
+  },
+  {
+    "name": "MEGALOVANIA - Toby Fox.flac",
+    "rel_path": "音乐/MEGALOVANIA - Toby Fox.flac",
+    "size": 62792629,
+    "size_text": "59.9 MB",
+    "play_url": "downloads/音乐/MEGALOVANIA - Toby Fox.flac",
+    "download_url": "downloads/音乐/MEGALOVANIA - Toby Fox.flac"
+  },
+  {
+    "name": "melodic minor - 明洋.flac",
+    "rel_path": "音乐/melodic minor - 明洋.flac",
+    "size": 39390590,
+    "size_text": "37.6 MB",
+    "play_url": "downloads/音乐/melodic minor - 明洋.flac",
+    "download_url": "downloads/音乐/melodic minor - 明洋.flac"
+  },
+  {
+    "name": "memories - G Sounds.flac",
+    "rel_path": "音乐/memories - G Sounds.flac",
+    "size": 26540489,
+    "size_text": "25.3 MB",
+    "play_url": "downloads/音乐/memories - G Sounds.flac",
+    "download_url": "downloads/音乐/memories - G Sounds.flac"
+  },
+  {
+    "name": "Memories - TRA$H.mp3",
+    "rel_path": "音乐/Memories - TRA$H.mp3",
+    "size": 6179900,
+    "size_text": "5.9 MB",
+    "play_url": "downloads/音乐/Memories - TRA$H.mp3",
+    "download_url": "downloads/音乐/Memories - TRA$H.mp3"
+  },
+  {
+    "name": "Merry Christmas Mr. Lawrence - 坂本龍一、Jaques Morelenbaum、Judy Kang.mp3",
+    "rel_path": "音乐/Merry Christmas Mr. Lawrence - 坂本龍一、Jaques Morelenbaum、Judy Kang.mp3",
+    "size": 13693414,
+    "size_text": "13.1 MB",
+    "play_url": "downloads/音乐/Merry Christmas Mr. Lawrence - 坂本龍一、Jaques Morelenbaum、Judy Kang.mp3",
+    "download_url": "downloads/音乐/Merry Christmas Mr. Lawrence - 坂本龍一、Jaques Morelenbaum、Judy Kang.mp3"
+  },
+  {
+    "name": "Mine (Illenium Remix) - ILLENIUM、Phoebe Ryan.flac",
+    "rel_path": "音乐/Mine (Illenium Remix) - ILLENIUM、Phoebe Ryan.flac",
+    "size": 99997078,
+    "size_text": "95.4 MB",
+    "play_url": "downloads/音乐/Mine (Illenium Remix) - ILLENIUM、Phoebe Ryan.flac",
+    "download_url": "downloads/音乐/Mine (Illenium Remix) - ILLENIUM、Phoebe Ryan.flac"
+  },
+  {
+    "name": "Minecraft_ Lava Chicken (Original Game Soundtrack) - Minecraft、Hyper Potions.flac",
+    "rel_path": "音乐/Minecraft_ Lava Chicken (Original Game Soundtrack) - Minecraft、Hyper Potions.flac",
+    "size": 58645772,
+    "size_text": "55.9 MB",
+    "play_url": "downloads/音乐/Minecraft_ Lava Chicken (Original Game Soundtrack) - Minecraft、Hyper Potions.flac",
+    "download_url": "downloads/音乐/Minecraft_ Lava Chicken (Original Game Soundtrack) - Minecraft、Hyper Potions.flac"
+  },
+  {
+    "name": "Moment(去见你我一定是用跑的) - GTR7、SENKEI.flac",
+    "rel_path": "音乐/Moment(去见你我一定是用跑的) - GTR7、SENKEI.flac",
+    "size": 55898189,
+    "size_text": "53.3 MB",
+    "play_url": "downloads/音乐/Moment(去见你我一定是用跑的) - GTR7、SENKEI.flac",
+    "download_url": "downloads/音乐/Moment(去见你我一定是用跑的) - GTR7、SENKEI.flac"
+  },
+  {
+    "name": "Moment(片刻) - GTR7、SENKEI.flac",
+    "rel_path": "音乐/Moment(片刻) - GTR7、SENKEI.flac",
+    "size": 54615440,
+    "size_text": "52.1 MB",
+    "play_url": "downloads/音乐/Moment(片刻) - GTR7、SENKEI.flac",
+    "download_url": "downloads/音乐/Moment(片刻) - GTR7、SENKEI.flac"
+  },
+  {
+    "name": "Monody - TheFatRat、Laura Brehm.flac",
+    "rel_path": "音乐/Monody - TheFatRat、Laura Brehm.flac",
+    "size": 116892321,
+    "size_text": "111.5 MB",
+    "play_url": "downloads/音乐/Monody - TheFatRat、Laura Brehm.flac",
+    "download_url": "downloads/音乐/Monody - TheFatRat、Laura Brehm.flac"
+  },
+  {
+    "name": "MONTAGEM 486 - LumynX、DJ AdiNT.flac",
+    "rel_path": "音乐/MONTAGEM 486 - LumynX、DJ AdiNT.flac",
+    "size": 53758474,
+    "size_text": "51.3 MB",
+    "play_url": "downloads/音乐/MONTAGEM 486 - LumynX、DJ AdiNT.flac",
+    "download_url": "downloads/音乐/MONTAGEM 486 - LumynX、DJ AdiNT.flac"
+  },
+  {
+    "name": "MONTAGEM 486 - LumynX、DJ XRAY.mp3",
+    "rel_path": "音乐/MONTAGEM 486 - LumynX、DJ XRAY.mp3",
+    "size": 6293754,
+    "size_text": "6.0 MB",
+    "play_url": "downloads/音乐/MONTAGEM 486 - LumynX、DJ XRAY.mp3",
+    "download_url": "downloads/音乐/MONTAGEM 486 - LumynX、DJ XRAY.mp3"
+  },
+  {
+    "name": "MONTAGEM ALQUIMIA - 圈圈菌.flac",
+    "rel_path": "音乐/MONTAGEM ALQUIMIA - 圈圈菌.flac",
+    "size": 36590403,
+    "size_text": "34.9 MB",
+    "play_url": "downloads/音乐/MONTAGEM ALQUIMIA - 圈圈菌.flac",
+    "download_url": "downloads/音乐/MONTAGEM ALQUIMIA - 圈圈菌.flac"
+  },
+  {
+    "name": "Montagem Miau - Lenar.flac",
+    "rel_path": "音乐/Montagem Miau - Lenar.flac",
+    "size": 30470161,
+    "size_text": "29.1 MB",
+    "play_url": "downloads/音乐/Montagem Miau - Lenar.flac",
+    "download_url": "downloads/音乐/Montagem Miau - Lenar.flac"
+  },
+  {
+    "name": "MONTAGEM SEM PARA - DJ FKU、DJ MOIGUS、DJ PETYA.flac",
+    "rel_path": "音乐/MONTAGEM SEM PARA - DJ FKU、DJ MOIGUS、DJ PETYA.flac",
+    "size": 38634789,
+    "size_text": "36.8 MB",
+    "play_url": "downloads/音乐/MONTAGEM SEM PARA - DJ FKU、DJ MOIGUS、DJ PETYA.flac",
+    "download_url": "downloads/音乐/MONTAGEM SEM PARA - DJ FKU、DJ MOIGUS、DJ PETYA.flac"
+  },
+  {
+    "name": "MONTAGEM SEM PARA 2 - Lunak、CaiQing.flac",
+    "rel_path": "音乐/MONTAGEM SEM PARA 2 - Lunak、CaiQing.flac",
+    "size": 36650122,
+    "size_text": "35.0 MB",
+    "play_url": "downloads/音乐/MONTAGEM SEM PARA 2 - Lunak、CaiQing.flac",
+    "download_url": "downloads/音乐/MONTAGEM SEM PARA 2 - Lunak、CaiQing.flac"
+  },
+  {
+    "name": "Moog City 2 - C418.flac",
+    "rel_path": "音乐/Moog City 2 - C418.flac",
+    "size": 54894138,
+    "size_text": "52.4 MB",
+    "play_url": "downloads/音乐/Moog City 2 - C418.flac",
+    "download_url": "downloads/音乐/Moog City 2 - C418.flac"
+  },
+  {
+    "name": "Moon Halo - 茶理理、TetraCalyx、Hanser、HOYO-MiX.mp3",
+    "rel_path": "音乐/Moon Halo - 茶理理、TetraCalyx、Hanser、HOYO-MiX.mp3",
+    "size": 10150011,
+    "size_text": "9.7 MB",
+    "play_url": "downloads/音乐/Moon Halo - 茶理理、TetraCalyx、Hanser、HOYO-MiX.mp3",
+    "download_url": "downloads/音乐/Moon Halo - 茶理理、TetraCalyx、Hanser、HOYO-MiX.mp3"
+  },
+  {
+    "name": "MY WAY (三个太阳 Remix) - Veysigz.flac",
+    "rel_path": "音乐/MY WAY (三个太阳 Remix) - Veysigz.flac",
+    "size": 67121607,
+    "size_text": "64.0 MB",
+    "play_url": "downloads/音乐/MY WAY (三个太阳 Remix) - Veysigz.flac",
+    "download_url": "downloads/音乐/MY WAY (三个太阳 Remix) - Veysigz.flac"
+  },
+  {
+    "name": "Nevada - Vicetone、Cozi Zuehlsdorff.flac",
+    "rel_path": "音乐/Nevada - Vicetone、Cozi Zuehlsdorff.flac",
+    "size": 84889037,
+    "size_text": "81.0 MB",
+    "play_url": "downloads/音乐/Nevada - Vicetone、Cozi Zuehlsdorff.flac",
+    "download_url": "downloads/音乐/Nevada - Vicetone、Cozi Zuehlsdorff.flac"
+  },
+  {
+    "name": "Never Gonna Give You Up - Rick Astley.flac",
+    "rel_path": "音乐/Never Gonna Give You Up - Rick Astley.flac",
+    "size": 86624360,
+    "size_text": "82.6 MB",
+    "play_url": "downloads/音乐/Never Gonna Give You Up - Rick Astley.flac",
+    "download_url": "downloads/音乐/Never Gonna Give You Up - Rick Astley.flac"
+  },
+  {
+    "name": "New Friend(雷军_初音) - OELoop、初音ミク、雷军.mp3",
+    "rel_path": "音乐/New Friend(雷军_初音) - OELoop、初音ミク、雷军.mp3",
+    "size": 4514734,
+    "size_text": "4.3 MB",
+    "play_url": "downloads/音乐/New Friend(雷军_初音) - OELoop、初音ミク、雷军.mp3",
+    "download_url": "downloads/音乐/New Friend(雷军_初音) - OELoop、初音ミク、雷军.mp3"
+  },
+  {
+    "name": "NIGHT DANCER - imase.flac",
+    "rel_path": "音乐/NIGHT DANCER - imase.flac",
+    "size": 78356232,
+    "size_text": "74.7 MB",
+    "play_url": "downloads/音乐/NIGHT DANCER - imase.flac",
+    "download_url": "downloads/音乐/NIGHT DANCER - imase.flac"
+  },
+  {
+    "name": "nop - 陈越龙.flac",
+    "rel_path": "音乐/nop - 陈越龙.flac",
+    "size": 28834969,
+    "size_text": "27.5 MB",
+    "play_url": "downloads/音乐/nop - 陈越龙.flac",
+    "download_url": "downloads/音乐/nop - 陈越龙.flac"
+  },
+  {
+    "name": "Normal No More - TYSM.flac",
+    "rel_path": "音乐/Normal No More - TYSM.flac",
+    "size": 74632501,
+    "size_text": "71.2 MB",
+    "play_url": "downloads/音乐/Normal No More - TYSM.flac",
+    "download_url": "downloads/音乐/Normal No More - TYSM.flac"
+  },
+  {
+    "name": "Old School - SORIANO.flac",
+    "rel_path": "音乐/Old School - SORIANO.flac",
+    "size": 108507089,
+    "size_text": "103.5 MB",
+    "play_url": "downloads/音乐/Old School - SORIANO.flac",
+    "download_url": "downloads/音乐/Old School - SORIANO.flac"
+  },
+  {
+    "name": "ON TOP - the girl next door、WMD.flac",
+    "rel_path": "音乐/ON TOP - the girl next door、WMD.flac",
+    "size": 48284855,
+    "size_text": "46.0 MB",
+    "play_url": "downloads/音乐/ON TOP - the girl next door、WMD.flac",
+    "download_url": "downloads/音乐/ON TOP - the girl next door、WMD.flac"
+  },
+  {
+    "name": "Once Upon A Time (House Mix) - Max Oazo、Moonessa.flac",
+    "rel_path": "音乐/Once Upon A Time (House Mix) - Max Oazo、Moonessa.flac",
+    "size": 143498222,
+    "size_text": "136.9 MB",
+    "play_url": "downloads/音乐/Once Upon A Time (House Mix) - Max Oazo、Moonessa.flac",
+    "download_url": "downloads/音乐/Once Upon A Time (House Mix) - Max Oazo、Moonessa.flac"
+  },
+  {
+    "name": "OVERLOAD! - ASMODEUS、DEITIES.flac",
+    "rel_path": "音乐/OVERLOAD! - ASMODEUS、DEITIES.flac",
+    "size": 53115538,
+    "size_text": "50.7 MB",
+    "play_url": "downloads/音乐/OVERLOAD! - ASMODEUS、DEITIES.flac",
+    "download_url": "downloads/音乐/OVERLOAD! - ASMODEUS、DEITIES.flac"
+  },
+  {
+    "name": "Overturn（反转进行曲） - GFY1994.flac",
+    "rel_path": "音乐/Overturn（反转进行曲） - GFY1994.flac",
+    "size": 51433663,
+    "size_text": "49.1 MB",
+    "play_url": "downloads/音乐/Overturn（反转进行曲） - GFY1994.flac",
+    "download_url": "downloads/音乐/Overturn（反转进行曲） - GFY1994.flac"
+  },
+  {
+    "name": "Ozora Crystal - Michita.flac",
+    "rel_path": "音乐/Ozora Crystal - Michita.flac",
+    "size": 109300706,
+    "size_text": "104.2 MB",
+    "play_url": "downloads/音乐/Ozora Crystal - Michita.flac",
+    "download_url": "downloads/音乐/Ozora Crystal - Michita.flac"
+  },
+  {
+    "name": "Paradise - MEDUZA、Dermot Kennedy.flac",
+    "rel_path": "音乐/Paradise - MEDUZA、Dermot Kennedy.flac",
+    "size": 62545957,
+    "size_text": "59.6 MB",
+    "play_url": "downloads/音乐/Paradise - MEDUZA、Dermot Kennedy.flac",
+    "download_url": "downloads/音乐/Paradise - MEDUZA、Dermot Kennedy.flac"
+  },
+  {
+    "name": "passion - silent anthem、heart embrace.flac",
+    "rel_path": "音乐/passion - silent anthem、heart embrace.flac",
+    "size": 56156388,
+    "size_text": "53.6 MB",
+    "play_url": "downloads/音乐/passion - silent anthem、heart embrace.flac",
+    "download_url": "downloads/音乐/passion - silent anthem、heart embrace.flac"
+  },
+  {
+    "name": "Past Lives - Martin Arteta、creamy.flac",
+    "rel_path": "音乐/Past Lives - Martin Arteta、creamy.flac",
+    "size": 41333700,
+    "size_text": "39.4 MB",
+    "play_url": "downloads/音乐/Past Lives - Martin Arteta、creamy.flac",
+    "download_url": "downloads/音乐/Past Lives - Martin Arteta、creamy.flac"
+  },
+  {
+    "name": "phone&kiss （Prod.By Suhmeduh ） - SanW.flac",
+    "rel_path": "音乐/phone&kiss （Prod.By Suhmeduh ） - SanW.flac",
+    "size": 40866519,
+    "size_text": "39.0 MB",
+    "play_url": "downloads/音乐/phone&kiss （Prod.By Suhmeduh ） - SanW.flac",
+    "download_url": "downloads/音乐/phone&kiss （Prod.By Suhmeduh ） - SanW.flac"
+  },
+  {
+    "name": "Pixels - brianjcb.flac",
+    "rel_path": "音乐/Pixels - brianjcb.flac",
+    "size": 37514102,
+    "size_text": "35.8 MB",
+    "play_url": "downloads/音乐/Pixels - brianjcb.flac",
+    "download_url": "downloads/音乐/Pixels - brianjcb.flac"
+  },
+  {
+    "name": "Please Don't Go - Joel Adams.flac",
+    "rel_path": "音乐/Please Don't Go - Joel Adams.flac",
+    "size": 84048510,
+    "size_text": "80.2 MB",
+    "play_url": "downloads/音乐/Please Don't Go - Joel Adams.flac",
+    "download_url": "downloads/音乐/Please Don't Go - Joel Adams.flac"
+  },
+  {
+    "name": "Power - JordanBeats.flac",
+    "rel_path": "音乐/Power - JordanBeats.flac",
+    "size": 73750349,
+    "size_text": "70.3 MB",
+    "play_url": "downloads/音乐/Power - JordanBeats.flac",
+    "download_url": "downloads/音乐/Power - JordanBeats.flac"
+  },
+  {
+    "name": "Rather Be - Clean Bandit、Jess Glynne.mp3",
+    "rel_path": "音乐/Rather Be - Clean Bandit、Jess Glynne.mp3",
+    "size": 9784764,
+    "size_text": "9.3 MB",
+    "play_url": "downloads/音乐/Rather Be - Clean Bandit、Jess Glynne.mp3",
+    "download_url": "downloads/音乐/Rather Be - Clean Bandit、Jess Glynne.mp3"
+  },
+  {
+    "name": "Rise - Verse9.flac",
+    "rel_path": "音乐/Rise - Verse9.flac",
+    "size": 52615292,
+    "size_text": "50.2 MB",
+    "play_url": "downloads/音乐/Rise - Verse9.flac",
+    "download_url": "downloads/音乐/Rise - Verse9.flac"
+  },
+  {
+    "name": "Sacred Play Secret Place - Matryoshka.flac",
+    "rel_path": "音乐/Sacred Play Secret Place - Matryoshka.flac",
+    "size": 112463674,
+    "size_text": "107.3 MB",
+    "play_url": "downloads/音乐/Sacred Play Secret Place - Matryoshka.flac",
+    "download_url": "downloads/音乐/Sacred Play Secret Place - Matryoshka.flac"
+  },
+  {
+    "name": "Sample this - RJ Pasin.flac",
+    "rel_path": "音乐/Sample this - RJ Pasin.flac",
+    "size": 33505486,
+    "size_text": "32.0 MB",
+    "play_url": "downloads/音乐/Sample this - RJ Pasin.flac",
+    "download_url": "downloads/音乐/Sample this - RJ Pasin.flac"
+  },
+  {
+    "name": "say goodbye - s0rrow.flac",
+    "rel_path": "音乐/say goodbye - s0rrow.flac",
+    "size": 59567641,
+    "size_text": "56.8 MB",
+    "play_url": "downloads/音乐/say goodbye - s0rrow.flac",
+    "download_url": "downloads/音乐/say goodbye - s0rrow.flac"
+  },
+  {
+    "name": "See You Again (feat. Charlie Puth) - Wiz Khalifa、Charlie Puth.flac",
+    "rel_path": "音乐/See You Again (feat. Charlie Puth) - Wiz Khalifa、Charlie Puth.flac",
+    "size": 80722581,
+    "size_text": "77.0 MB",
+    "play_url": "downloads/音乐/See You Again (feat. Charlie Puth) - Wiz Khalifa、Charlie Puth.flac",
+    "download_url": "downloads/音乐/See You Again (feat. Charlie Puth) - Wiz Khalifa、Charlie Puth.flac"
+  },
+  {
+    "name": "Self Redemption（自我救赎） - 风雪遂人愿.mp3",
+    "rel_path": "音乐/Self Redemption（自我救赎） - 风雪遂人愿.mp3",
+    "size": 3982948,
+    "size_text": "3.8 MB",
+    "play_url": "downloads/音乐/Self Redemption（自我救赎） - 风雪遂人愿.mp3",
+    "download_url": "downloads/音乐/Self Redemption（自我救赎） - 风雪遂人愿.mp3"
+  },
+  {
+    "name": "Senbonzakura - Lindsey Stirling.flac",
+    "rel_path": "音乐/Senbonzakura - Lindsey Stirling.flac",
+    "size": 72272687,
+    "size_text": "68.9 MB",
+    "play_url": "downloads/音乐/Senbonzakura - Lindsey Stirling.flac",
+    "download_url": "downloads/音乐/Senbonzakura - Lindsey Stirling.flac"
+  },
+  {
+    "name": "Shooting Stars - Bag Raiders.flac",
+    "rel_path": "音乐/Shooting Stars - Bag Raiders.flac",
+    "size": 97779521,
+    "size_text": "93.2 MB",
+    "play_url": "downloads/音乐/Shooting Stars - Bag Raiders.flac",
+    "download_url": "downloads/音乐/Shooting Stars - Bag Raiders.flac"
+  },
+  {
+    "name": "Shots (Broiler Remix) - Imagine Dragons、Broiler.flac",
+    "rel_path": "音乐/Shots (Broiler Remix) - Imagine Dragons、Broiler.flac",
+    "size": 74881162,
+    "size_text": "71.4 MB",
+    "play_url": "downloads/音乐/Shots (Broiler Remix) - Imagine Dragons、Broiler.flac",
+    "download_url": "downloads/音乐/Shots (Broiler Remix) - Imagine Dragons、Broiler.flac"
+  },
+  {
+    "name": "Si tu vois ma mère - Max Greger.flac",
+    "rel_path": "音乐/Si tu vois ma mère - Max Greger.flac",
+    "size": 51333371,
+    "size_text": "49.0 MB",
+    "play_url": "downloads/音乐/Si tu vois ma mère - Max Greger.flac",
+    "download_url": "downloads/音乐/Si tu vois ma mère - Max Greger.flac"
+  },
+  {
+    "name": "Sinos De Natal - MGD、MXZHPHXNK.flac",
+    "rel_path": "音乐/Sinos De Natal - MGD、MXZHPHXNK.flac",
+    "size": 48864522,
+    "size_text": "46.6 MB",
+    "play_url": "downloads/音乐/Sinos De Natal - MGD、MXZHPHXNK.flac",
+    "download_url": "downloads/音乐/Sinos De Natal - MGD、MXZHPHXNK.flac"
+  },
+  {
+    "name": "SINOS DE NATAL FUNK! - YaKio、Wehti、sleepyyer、Medleo、Trispect、broken.flac",
+    "rel_path": "音乐/SINOS DE NATAL FUNK! - YaKio、Wehti、sleepyyer、Medleo、Trispect、broken.flac",
+    "size": 63902537,
+    "size_text": "60.9 MB",
+    "play_url": "downloads/音乐/SINOS DE NATAL FUNK! - YaKio、Wehti、sleepyyer、Medleo、Trispect、broken.flac",
+    "download_url": "downloads/音乐/SINOS DE NATAL FUNK! - YaKio、Wehti、sleepyyer、Medleo、Trispect、broken.flac"
+  },
+  {
+    "name": "Sky (Radio Edit) - Steerner、Martell.flac",
+    "rel_path": "音乐/Sky (Radio Edit) - Steerner、Martell.flac",
+    "size": 98059711,
+    "size_text": "93.5 MB",
+    "play_url": "downloads/音乐/Sky (Radio Edit) - Steerner、Martell.flac",
+    "download_url": "downloads/音乐/Sky (Radio Edit) - Steerner、Martell.flac"
+  },
+  {
+    "name": "Sky High - Thomas Prime.flac",
+    "rel_path": "音乐/Sky High - Thomas Prime.flac",
+    "size": 88620530,
+    "size_text": "84.5 MB",
+    "play_url": "downloads/音乐/Sky High - Thomas Prime.flac",
+    "download_url": "downloads/音乐/Sky High - Thomas Prime.flac"
+  },
+  {
+    "name": "SkyCity(天空之城) - Forwe兰斯.flac",
+    "rel_path": "音乐/SkyCity(天空之城) - Forwe兰斯.flac",
+    "size": 79096397,
+    "size_text": "75.4 MB",
+    "play_url": "downloads/音乐/SkyCity(天空之城) - Forwe兰斯.flac",
+    "download_url": "downloads/音乐/SkyCity(天空之城) - Forwe兰斯.flac"
+  },
+  {
+    "name": "SLEEP - 董宇尘.mp3",
+    "rel_path": "音乐/SLEEP - 董宇尘.mp3",
+    "size": 6100193,
+    "size_text": "5.8 MB",
+    "play_url": "downloads/音乐/SLEEP - 董宇尘.mp3",
+    "download_url": "downloads/音乐/SLEEP - 董宇尘.mp3"
+  },
+  {
+    "name": "Sleepwalker - Young God.flac",
+    "rel_path": "音乐/Sleepwalker - Young God.flac",
+    "size": 86172896,
+    "size_text": "82.2 MB",
+    "play_url": "downloads/音乐/Sleepwalker - Young God.flac",
+    "download_url": "downloads/音乐/Sleepwalker - Young God.flac"
+  },
+  {
+    "name": "Slow Down - Madnap、Pauline Herr.mp3",
+    "rel_path": "音乐/Slow Down - Madnap、Pauline Herr.mp3",
+    "size": 8354709,
+    "size_text": "8.0 MB",
+    "play_url": "downloads/音乐/Slow Down - Madnap、Pauline Herr.mp3",
+    "download_url": "downloads/音乐/Slow Down - Madnap、Pauline Herr.mp3"
+  },
+  {
+    "name": "So Far Away - Martin Garrix、David Guetta、Jamie Scott、Romy Dya.flac",
+    "rel_path": "音乐/So Far Away - Martin Garrix、David Guetta、Jamie Scott、Romy Dya.flac",
+    "size": 72112481,
+    "size_text": "68.8 MB",
+    "play_url": "downloads/音乐/So Far Away - Martin Garrix、David Guetta、Jamie Scott、Romy Dya.flac",
+    "download_url": "downloads/音乐/So Far Away - Martin Garrix、David Guetta、Jamie Scott、Romy Dya.flac"
+  },
+  {
+    "name": "SOS - Avicii、Aloe Blacc.flac",
+    "rel_path": "音乐/SOS - Avicii、Aloe Blacc.flac",
+    "size": 60488912,
+    "size_text": "57.7 MB",
+    "play_url": "downloads/音乐/SOS - Avicii、Aloe Blacc.flac",
+    "download_url": "downloads/音乐/SOS - Avicii、Aloe Blacc.flac"
+  },
+  {
+    "name": "Spring In My Step - Silent Partner.flac",
+    "rel_path": "音乐/Spring In My Step - Silent Partner.flac",
+    "size": 46707059,
+    "size_text": "44.5 MB",
+    "play_url": "downloads/音乐/Spring In My Step - Silent Partner.flac",
+    "download_url": "downloads/音乐/Spring In My Step - Silent Partner.flac"
+  },
+  {
+    "name": "Stardust - 浮云心丶.flac",
+    "rel_path": "音乐/Stardust - 浮云心丶.flac",
+    "size": 103697754,
+    "size_text": "98.9 MB",
+    "play_url": "downloads/音乐/Stardust - 浮云心丶.flac",
+    "download_url": "downloads/音乐/Stardust - 浮云心丶.flac"
+  },
+  {
+    "name": "Start and end (开始和结束) - Rain And foam.flac",
+    "rel_path": "音乐/Start and end (开始和结束) - Rain And foam.flac",
+    "size": 50968925,
+    "size_text": "48.6 MB",
+    "play_url": "downloads/音乐/Start and end (开始和结束) - Rain And foam.flac",
+    "download_url": "downloads/音乐/Start and end (开始和结束) - Rain And foam.flac"
+  },
+  {
+    "name": "STAY - The Kid LAROI、Justin Bieber.flac",
+    "rel_path": "音乐/STAY - The Kid LAROI、Justin Bieber.flac",
+    "size": 52410958,
+    "size_text": "50.0 MB",
+    "play_url": "downloads/音乐/STAY - The Kid LAROI、Justin Bieber.flac",
+    "download_url": "downloads/音乐/STAY - The Kid LAROI、Justin Bieber.flac"
+  },
+  {
+    "name": "Stitches - Shawn Mendes.mp3",
+    "rel_path": "音乐/Stitches - Shawn Mendes.mp3",
+    "size": 8578593,
+    "size_text": "8.2 MB",
+    "play_url": "downloads/音乐/Stitches - Shawn Mendes.mp3",
+    "download_url": "downloads/音乐/Stitches - Shawn Mendes.mp3"
+  },
+  {
+    "name": "Stray.wav - $uNDOWN.flac",
+    "rel_path": "音乐/Stray.wav - $uNDOWN.flac",
+    "size": 39860777,
+    "size_text": "38.0 MB",
+    "play_url": "downloads/音乐/Stray.wav - $uNDOWN.flac",
+    "download_url": "downloads/音乐/Stray.wav - $uNDOWN.flac"
+  },
+  {
+    "name": "Subwoofer Lullaby - C418.flac",
+    "rel_path": "音乐/Subwoofer Lullaby - C418.flac",
+    "size": 55348484,
+    "size_text": "52.8 MB",
+    "play_url": "downloads/音乐/Subwoofer Lullaby - C418.flac",
+    "download_url": "downloads/音乐/Subwoofer Lullaby - C418.flac"
+  },
+  {
+    "name": "suhmeduh-没有写给谁demo（Assoul remix） - Assoul.mp3",
+    "rel_path": "音乐/suhmeduh-没有写给谁demo（Assoul remix） - Assoul.mp3",
+    "size": 6029910,
+    "size_text": "5.8 MB",
+    "play_url": "downloads/音乐/suhmeduh-没有写给谁demo（Assoul remix） - Assoul.mp3",
+    "download_url": "downloads/音乐/suhmeduh-没有写给谁demo（Assoul remix） - Assoul.mp3"
+  },
+  {
+    "name": "Sunburst - Tobu、Itro.flac",
+    "rel_path": "音乐/Sunburst - Tobu、Itro.flac",
+    "size": 78315993,
+    "size_text": "74.7 MB",
+    "play_url": "downloads/音乐/Sunburst - Tobu、Itro.flac",
+    "download_url": "downloads/音乐/Sunburst - Tobu、Itro.flac"
+  },
+  {
+    "name": "Take Me - STRlighT.flac",
+    "rel_path": "音乐/Take Me - STRlighT.flac",
+    "size": 103784196,
+    "size_text": "99.0 MB",
+    "play_url": "downloads/音乐/Take Me - STRlighT.flac",
+    "download_url": "downloads/音乐/Take Me - STRlighT.flac"
+  },
+  {
+    "name": "Take Me Hand - DAISHI DANCE、Cécile Corbel.flac",
+    "rel_path": "音乐/Take Me Hand - DAISHI DANCE、Cécile Corbel.flac",
+    "size": 99763918,
+    "size_text": "95.1 MB",
+    "play_url": "downloads/音乐/Take Me Hand - DAISHI DANCE、Cécile Corbel.flac",
+    "download_url": "downloads/音乐/Take Me Hand - DAISHI DANCE、Cécile Corbel.flac"
+  },
+  {
+    "name": "Take Me Hand - 刘兆宇、是二智呀.flac",
+    "rel_path": "音乐/Take Me Hand - 刘兆宇、是二智呀.flac",
+    "size": 61456349,
+    "size_text": "58.6 MB",
+    "play_url": "downloads/音乐/Take Me Hand - 刘兆宇、是二智呀.flac",
+    "download_url": "downloads/音乐/Take Me Hand - 刘兆宇、是二智呀.flac"
+  },
+  {
+    "name": "That Girl - Olly Murs.flac",
+    "rel_path": "音乐/That Girl - Olly Murs.flac",
+    "size": 68548577,
+    "size_text": "65.4 MB",
+    "play_url": "downloads/音乐/That Girl - Olly Murs.flac",
+    "download_url": "downloads/音乐/That Girl - Olly Murs.flac"
+  },
+  {
+    "name": "That Girl(小丑主题曲) - Kevin Q.flac",
+    "rel_path": "音乐/That Girl(小丑主题曲) - Kevin Q.flac",
+    "size": 20940706,
+    "size_text": "20.0 MB",
+    "play_url": "downloads/音乐/That Girl(小丑主题曲) - Kevin Q.flac",
+    "download_url": "downloads/音乐/That Girl(小丑主题曲) - Kevin Q.flac"
+  },
+  {
+    "name": "The Amazing Digital Circus Theme Song (Epic Version) - Carameii.flac",
+    "rel_path": "音乐/The Amazing Digital Circus Theme Song (Epic Version) - Carameii.flac",
+    "size": 56371617,
+    "size_text": "53.8 MB",
+    "play_url": "downloads/音乐/The Amazing Digital Circus Theme Song (Epic Version) - Carameii.flac",
+    "download_url": "downloads/音乐/The Amazing Digital Circus Theme Song (Epic Version) - Carameii.flac"
+  },
+  {
+    "name": "The Happy Troll (Griefing Theme Song) - D1ofaquavibe.flac",
+    "rel_path": "音乐/The Happy Troll (Griefing Theme Song) - D1ofaquavibe.flac",
+    "size": 64324321,
+    "size_text": "61.3 MB",
+    "play_url": "downloads/音乐/The Happy Troll (Griefing Theme Song) - D1ofaquavibe.flac",
+    "download_url": "downloads/音乐/The Happy Troll (Griefing Theme Song) - D1ofaquavibe.flac"
+  },
+  {
+    "name": "THE INVINCIBLE KING（Slap House） - HiLXG、HFHW.flac",
+    "rel_path": "音乐/THE INVINCIBLE KING（Slap House） - HiLXG、HFHW.flac",
+    "size": 56433965,
+    "size_text": "53.8 MB",
+    "play_url": "downloads/音乐/THE INVINCIBLE KING（Slap House） - HiLXG、HFHW.flac",
+    "download_url": "downloads/音乐/THE INVINCIBLE KING（Slap House） - HiLXG、HFHW.flac"
+  },
+  {
+    "name": "the loser - zach farache.flac",
+    "rel_path": "音乐/the loser - zach farache.flac",
+    "size": 48829549,
+    "size_text": "46.6 MB",
+    "play_url": "downloads/音乐/the loser - zach farache.flac",
+    "download_url": "downloads/音乐/the loser - zach farache.flac"
+  },
+  {
+    "name": "The Other Side Of Paradise - Glass Animals.flac",
+    "rel_path": "音乐/The Other Side Of Paradise - Glass Animals.flac",
+    "size": 121935425,
+    "size_text": "116.3 MB",
+    "play_url": "downloads/音乐/The Other Side Of Paradise - Glass Animals.flac",
+    "download_url": "downloads/音乐/The Other Side Of Paradise - Glass Animals.flac"
+  },
+  {
+    "name": "The Treasure - Bernward Koch.flac",
+    "rel_path": "音乐/The Treasure - Bernward Koch.flac",
+    "size": 91300756,
+    "size_text": "87.1 MB",
+    "play_url": "downloads/音乐/The Treasure - Bernward Koch.flac",
+    "download_url": "downloads/音乐/The Treasure - Bernward Koch.flac"
+  },
+  {
+    "name": "this is what winter feels like - JVKE.flac",
+    "rel_path": "音乐/this is what winter feels like - JVKE.flac",
+    "size": 72903480,
+    "size_text": "69.5 MB",
+    "play_url": "downloads/音乐/this is what winter feels like - JVKE.flac",
+    "download_url": "downloads/音乐/this is what winter feels like - JVKE.flac"
+  },
+  {
+    "name": "time machine (2024 Radio Edit) - mj apanay、aren park.flac",
+    "rel_path": "音乐/time machine (2024 Radio Edit) - mj apanay、aren park.flac",
+    "size": 78614892,
+    "size_text": "75.0 MB",
+    "play_url": "downloads/音乐/time machine (2024 Radio Edit) - mj apanay、aren park.flac",
+    "download_url": "downloads/音乐/time machine (2024 Radio Edit) - mj apanay、aren park.flac"
+  },
+  {
+    "name": "time machine (feat. aren park) - mj apanay、aren park.flac",
+    "rel_path": "音乐/time machine (feat. aren park) - mj apanay、aren park.flac",
+    "size": 78057148,
+    "size_text": "74.4 MB",
+    "play_url": "downloads/音乐/time machine (feat. aren park) - mj apanay、aren park.flac",
+    "download_url": "downloads/音乐/time machine (feat. aren park) - mj apanay、aren park.flac"
+  },
+  {
+    "name": "Time to Pretend - Lazer Boomerang.flac",
+    "rel_path": "音乐/Time to Pretend - Lazer Boomerang.flac",
+    "size": 113856841,
+    "size_text": "108.6 MB",
+    "play_url": "downloads/音乐/Time to Pretend - Lazer Boomerang.flac",
+    "download_url": "downloads/音乐/Time to Pretend - Lazer Boomerang.flac"
+  },
+  {
+    "name": "Title Theme - Ari Pulkkinen.flac",
+    "rel_path": "音乐/Title Theme - Ari Pulkkinen.flac",
+    "size": 23763417,
+    "size_text": "22.7 MB",
+    "play_url": "downloads/音乐/Title Theme - Ari Pulkkinen.flac",
+    "download_url": "downloads/音乐/Title Theme - Ari Pulkkinen.flac"
+  },
+  {
+    "name": "Trip - Axero.flac",
+    "rel_path": "音乐/Trip - Axero.flac",
+    "size": 69371651,
+    "size_text": "66.2 MB",
+    "play_url": "downloads/音乐/Trip - Axero.flac",
+    "download_url": "downloads/音乐/Trip - Axero.flac"
+  },
+  {
+    "name": "UNA MAS FUNK 2 - MGD、BLOODTHXRN、HITEXODUS.flac",
+    "rel_path": "音乐/UNA MAS FUNK 2 - MGD、BLOODTHXRN、HITEXODUS.flac",
+    "size": 54968829,
+    "size_text": "52.4 MB",
+    "play_url": "downloads/音乐/UNA MAS FUNK 2 - MGD、BLOODTHXRN、HITEXODUS.flac",
+    "download_url": "downloads/音乐/UNA MAS FUNK 2 - MGD、BLOODTHXRN、HITEXODUS.flac"
+  },
+  {
+    "name": "Unchanged Mind - Valentin.flac",
+    "rel_path": "音乐/Unchanged Mind - Valentin.flac",
+    "size": 106290222,
+    "size_text": "101.4 MB",
+    "play_url": "downloads/音乐/Unchanged Mind - Valentin.flac",
+    "download_url": "downloads/音乐/Unchanged Mind - Valentin.flac"
+  },
+  {
+    "name": "Undead Funeral March - Ugress.flac",
+    "rel_path": "音乐/Undead Funeral March - Ugress.flac",
+    "size": 49364098,
+    "size_text": "47.1 MB",
+    "play_url": "downloads/音乐/Undead Funeral March - Ugress.flac",
+    "download_url": "downloads/音乐/Undead Funeral March - Ugress.flac"
+  },
+  {
+    "name": "Underground - Lindsey Stirling.flac",
+    "rel_path": "音乐/Underground - Lindsey Stirling.flac",
+    "size": 102871857,
+    "size_text": "98.1 MB",
+    "play_url": "downloads/音乐/Underground - Lindsey Stirling.flac",
+    "download_url": "downloads/音乐/Underground - Lindsey Stirling.flac"
+  },
+  {
+    "name": "unhappy - s0rrow.flac",
+    "rel_path": "音乐/unhappy - s0rrow.flac",
+    "size": 41513319,
+    "size_text": "39.6 MB",
+    "play_url": "downloads/音乐/unhappy - s0rrow.flac",
+    "download_url": "downloads/音乐/unhappy - s0rrow.flac"
+  },
+  {
+    "name": "UNICUBE! - 棍圣、PROPHECY.flac",
+    "rel_path": "音乐/UNICUBE! - 棍圣、PROPHECY.flac",
+    "size": 55180559,
+    "size_text": "52.6 MB",
+    "play_url": "downloads/音乐/UNICUBE! - 棍圣、PROPHECY.flac",
+    "download_url": "downloads/音乐/UNICUBE! - 棍圣、PROPHECY.flac"
+  },
+  {
+    "name": "Unity - TheFatRat.flac",
+    "rel_path": "音乐/Unity - TheFatRat.flac",
+    "size": 102990564,
+    "size_text": "98.2 MB",
+    "play_url": "downloads/音乐/Unity - TheFatRat.flac",
+    "download_url": "downloads/音乐/Unity - TheFatRat.flac"
+  },
+  {
+    "name": "urbanisation - lumisoun.flac",
+    "rel_path": "音乐/urbanisation - lumisoun.flac",
+    "size": 47180335,
+    "size_text": "45.0 MB",
+    "play_url": "downloads/音乐/urbanisation - lumisoun.flac",
+    "download_url": "downloads/音乐/urbanisation - lumisoun.flac"
+  },
+  {
+    "name": "Usagi Flap - Nor.flac",
+    "rel_path": "音乐/Usagi Flap - Nor.flac",
+    "size": 48798279,
+    "size_text": "46.5 MB",
+    "play_url": "downloads/音乐/Usagi Flap - Nor.flac",
+    "download_url": "downloads/音乐/Usagi Flap - Nor.flac"
+  },
+  {
+    "name": "Vois Sur Ton Chemin (Bass Boosted) - Deprezz.flac",
+    "rel_path": "音乐/Vois Sur Ton Chemin (Bass Boosted) - Deprezz.flac",
+    "size": 45796235,
+    "size_text": "43.7 MB",
+    "play_url": "downloads/音乐/Vois Sur Ton Chemin (Bass Boosted) - Deprezz.flac",
+    "download_url": "downloads/音乐/Vois Sur Ton Chemin (Bass Boosted) - Deprezz.flac"
+  },
+  {
+    "name": "Waiting For Love - Avicii.flac",
+    "rel_path": "音乐/Waiting For Love - Avicii.flac",
+    "size": 91127755,
+    "size_text": "86.9 MB",
+    "play_url": "downloads/音乐/Waiting For Love - Avicii.flac",
+    "download_url": "downloads/音乐/Waiting For Love - Avicii.flac"
+  },
+  {
+    "name": "Walk Thru Fire - Vicetone.flac",
+    "rel_path": "音乐/Walk Thru Fire - Vicetone.flac",
+    "size": 78244774,
+    "size_text": "74.6 MB",
+    "play_url": "downloads/音乐/Walk Thru Fire - Vicetone.flac",
+    "download_url": "downloads/音乐/Walk Thru Fire - Vicetone.flac"
+  },
+  {
+    "name": "Way Back - Vicetone、Cozi Zuehlsdorff.flac",
+    "rel_path": "音乐/Way Back - Vicetone、Cozi Zuehlsdorff.flac",
+    "size": 85566540,
+    "size_text": "81.6 MB",
+    "play_url": "downloads/音乐/Way Back - Vicetone、Cozi Zuehlsdorff.flac",
+    "download_url": "downloads/音乐/Way Back - Vicetone、Cozi Zuehlsdorff.flac"
+  },
+  {
+    "name": "We Never - Hi Noise.flac",
+    "rel_path": "音乐/We Never - Hi Noise.flac",
+    "size": 98259596,
+    "size_text": "93.7 MB",
+    "play_url": "downloads/音乐/We Never - Hi Noise.flac",
+    "download_url": "downloads/音乐/We Never - Hi Noise.flac"
+  },
+  {
+    "name": "Whoa - XXXTENTACION.flac",
+    "rel_path": "音乐/Whoa - XXXTENTACION.flac",
+    "size": 53480150,
+    "size_text": "51.0 MB",
+    "play_url": "downloads/音乐/Whoa - XXXTENTACION.flac",
+    "download_url": "downloads/音乐/Whoa - XXXTENTACION.flac"
+  },
+  {
+    "name": "Wolves - Selena Gomez、Marshmello.flac",
+    "rel_path": "音乐/Wolves - Selena Gomez、Marshmello.flac",
+    "size": 80092123,
+    "size_text": "76.4 MB",
+    "play_url": "downloads/音乐/Wolves - Selena Gomez、Marshmello.flac",
+    "download_url": "downloads/音乐/Wolves - Selena Gomez、Marshmello.flac"
+  },
+  {
+    "name": "X TALI - Alif、Polo.flac",
+    "rel_path": "音乐/X TALI - Alif、Polo.flac",
+    "size": 13770569,
+    "size_text": "13.1 MB",
+    "play_url": "downloads/音乐/X TALI - Alif、Polo.flac",
+    "download_url": "downloads/音乐/X TALI - Alif、Polo.flac"
+  },
+  {
+    "name": "X-COOL! (Edit Version) - tienanh109、HDN、hailong140、MC K3.flac",
+    "rel_path": "音乐/X-COOL! (Edit Version) - tienanh109、HDN、hailong140、MC K3.flac",
+    "size": 22287090,
+    "size_text": "21.3 MB",
+    "play_url": "downloads/音乐/X-COOL! (Edit Version) - tienanh109、HDN、hailong140、MC K3.flac",
+    "download_url": "downloads/音乐/X-COOL! (Edit Version) - tienanh109、HDN、hailong140、MC K3.flac"
+  },
+  {
+    "name": "YOSEMITE - Travis Scott.flac",
+    "rel_path": "音乐/YOSEMITE - Travis Scott.flac",
+    "size": 56337495,
+    "size_text": "53.7 MB",
+    "play_url": "downloads/音乐/YOSEMITE - Travis Scott.flac",
+    "download_url": "downloads/音乐/YOSEMITE - Travis Scott.flac"
+  },
+  {
+    "name": "You - Approaching Nirvana.mp3",
+    "rel_path": "音乐/You - Approaching Nirvana.mp3",
+    "size": 5500266,
+    "size_text": "5.2 MB",
+    "play_url": "downloads/音乐/You - Approaching Nirvana.mp3",
+    "download_url": "downloads/音乐/You - Approaching Nirvana.mp3"
+  },
+  {
+    "name": "you are beautiful（呕吐版） - 星子.flac",
+    "rel_path": "音乐/you are beautiful（呕吐版） - 星子.flac",
+    "size": 16487807,
+    "size_text": "15.7 MB",
+    "play_url": "downloads/音乐/you are beautiful（呕吐版） - 星子.flac",
+    "download_url": "downloads/音乐/you are beautiful（呕吐版） - 星子.flac"
+  },
+  {
+    "name": "Zouzei Funk - Syensan.flac",
+    "rel_path": "音乐/Zouzei Funk - Syensan.flac",
+    "size": 44564797,
+    "size_text": "42.5 MB",
+    "play_url": "downloads/音乐/Zouzei Funk - Syensan.flac",
+    "download_url": "downloads/音乐/Zouzei Funk - Syensan.flac"
+  },
+  {
+    "name": "δ - 五年之约、GARDENIA RECORDS.mp3",
+    "rel_path": "音乐/δ - 五年之约、GARDENIA RECORDS.mp3",
+    "size": 9367533,
+    "size_text": "8.9 MB",
+    "play_url": "downloads/音乐/δ - 五年之约、GARDENIA RECORDS.mp3",
+    "download_url": "downloads/音乐/δ - 五年之约、GARDENIA RECORDS.mp3"
+  },
+  {
+    "name": "†TAKEDISKRUSH!† - N2UtheHartlocker.flac",
+    "rel_path": "音乐/†TAKEDISKRUSH!† - N2UtheHartlocker.flac",
+    "size": 69357684,
+    "size_text": "66.1 MB",
+    "play_url": "downloads/音乐/†TAKEDISKRUSH!† - N2UtheHartlocker.flac",
+    "download_url": "downloads/音乐/†TAKEDISKRUSH!† - N2UtheHartlocker.flac"
+  },
+  {
+    "name": "†TAKEDISKRUSH!†（嘉豪进行曲） - N2UtheHartlocker.mp3",
+    "rel_path": "音乐/†TAKEDISKRUSH!†（嘉豪进行曲） - N2UtheHartlocker.mp3",
+    "size": 6577446,
+    "size_text": "6.3 MB",
+    "play_url": "downloads/音乐/†TAKEDISKRUSH!†（嘉豪进行曲） - N2UtheHartlocker.mp3",
+    "download_url": "downloads/音乐/†TAKEDISKRUSH!†（嘉豪进行曲） - N2UtheHartlocker.mp3"
+  },
+  {
+    "name": "●ｖ●(溯-纯音乐) - 沅吴.mp3",
+    "rel_path": "音乐/●ｖ●(溯-纯音乐) - 沅吴.mp3",
+    "size": 4984690,
+    "size_text": "4.8 MB",
+    "play_url": "downloads/音乐/●ｖ●(溯-纯音乐) - 沅吴.mp3",
+    "download_url": "downloads/音乐/●ｖ●(溯-纯音乐) - 沅吴.mp3"
+  },
+  {
+    "name": "「ねえ！○○ちゃんまだぁ〜？？？？」 - さんうさぎ.flac",
+    "rel_path": "音乐/「ねえ！○○ちゃんまだぁ〜？？？？」 - さんうさぎ.flac",
+    "size": 64187789,
+    "size_text": "61.2 MB",
+    "play_url": "downloads/音乐/「ねえ！○○ちゃんまだぁ〜？？？？」 - さんうさぎ.flac",
+    "download_url": "downloads/音乐/「ねえ！○○ちゃんまだぁ〜？？？？」 - さんうさぎ.flac"
+  },
+  {
+    "name": "【FREE】lucky - Salder4cash.flac",
+    "rel_path": "音乐/【FREE】lucky - Salder4cash.flac",
+    "size": 42436492,
+    "size_text": "40.5 MB",
+    "play_url": "downloads/音乐/【FREE】lucky - Salder4cash.flac",
+    "download_url": "downloads/音乐/【FREE】lucky - Salder4cash.flac"
+  },
+  {
+    "name": "おしんこ - 田中ユウスケ、agehasprings.flac",
+    "rel_path": "音乐/おしんこ - 田中ユウスケ、agehasprings.flac",
+    "size": 26086330,
+    "size_text": "24.9 MB",
+    "play_url": "downloads/音乐/おしんこ - 田中ユウスケ、agehasprings.flac",
+    "download_url": "downloads/音乐/おしんこ - 田中ユウスケ、agehasprings.flac"
+  },
+  {
+    "name": "やわらかな光 - やまだ豊.flac",
+    "rel_path": "音乐/やわらかな光 - やまだ豊.flac",
+    "size": 136685790,
+    "size_text": "130.4 MB",
+    "play_url": "downloads/音乐/やわらかな光 - やまだ豊.flac",
+    "download_url": "downloads/音乐/やわらかな光 - やまだ豊.flac"
+  },
+  {
+    "name": "エンターテイナー - Scott Joplin、柴野浩美.flac",
+    "rel_path": "音乐/エンターテイナー - Scott Joplin、柴野浩美.flac",
+    "size": 37855543,
+    "size_text": "36.1 MB",
+    "play_url": "downloads/音乐/エンターテイナー - Scott Joplin、柴野浩美.flac",
+    "download_url": "downloads/音乐/エンターテイナー - Scott Joplin、柴野浩美.flac"
+  },
+  {
+    "name": "デート - RADWIMPS.flac",
+    "rel_path": "音乐/デート - RADWIMPS.flac",
+    "size": 69977618,
+    "size_text": "66.7 MB",
+    "play_url": "downloads/音乐/デート - RADWIMPS.flac",
+    "download_url": "downloads/音乐/デート - RADWIMPS.flac"
+  },
+  {
+    "name": "一个人过冬天（翻自 寻找幸福） - 宋世贤.mp3",
+    "rel_path": "音乐/一个人过冬天（翻自 寻找幸福） - 宋世贤.mp3",
+    "size": 9408168,
+    "size_text": "9.0 MB",
+    "play_url": "downloads/音乐/一个人过冬天（翻自 寻找幸福） - 宋世贤.mp3",
+    "download_url": "downloads/音乐/一个人过冬天（翻自 寻找幸福） - 宋世贤.mp3"
+  },
+  {
+    "name": "一半一半 - Top Barry、INDEcompany.flac",
+    "rel_path": "音乐/一半一半 - Top Barry、INDEcompany.flac",
+    "size": 82923346,
+    "size_text": "79.1 MB",
+    "play_url": "downloads/音乐/一半一半 - Top Barry、INDEcompany.flac",
+    "download_url": "downloads/音乐/一半一半 - Top Barry、INDEcompany.flac"
+  },
+  {
+    "name": "一程山路 - 毛不易.mp3",
+    "rel_path": "音乐/一程山路 - 毛不易.mp3",
+    "size": 8744354,
+    "size_text": "8.3 MB",
+    "play_url": "downloads/音乐/一程山路 - 毛不易.mp3",
+    "download_url": "downloads/音乐/一程山路 - 毛不易.mp3"
+  },
+  {
+    "name": "七里香 - 周杰伦.mp3",
+    "rel_path": "音乐/七里香 - 周杰伦.mp3",
+    "size": 11970297,
+    "size_text": "11.4 MB",
+    "play_url": "downloads/音乐/七里香 - 周杰伦.mp3",
+    "download_url": "downloads/音乐/七里香 - 周杰伦.mp3"
+  },
+  {
+    "name": "严莉莉进行曲 - Zzyx.flac",
+    "rel_path": "音乐/严莉莉进行曲 - Zzyx.flac",
+    "size": 68640600,
+    "size_text": "65.5 MB",
+    "play_url": "downloads/音乐/严莉莉进行曲 - Zzyx.flac",
+    "download_url": "downloads/音乐/严莉莉进行曲 - Zzyx.flac"
+  },
+  {
+    "name": "中国人会飞 - Chalky Wong、揽佬SKAI ISYOURGOD.flac",
+    "rel_path": "音乐/中国人会飞 - Chalky Wong、揽佬SKAI ISYOURGOD.flac",
+    "size": 46541459,
+    "size_text": "44.4 MB",
+    "play_url": "downloads/音乐/中国人会飞 - Chalky Wong、揽佬SKAI ISYOURGOD.flac",
+    "download_url": "downloads/音乐/中国人会飞 - Chalky Wong、揽佬SKAI ISYOURGOD.flac"
+  },
+  {
+    "name": "为何升起 - Mr.wc.flac",
+    "rel_path": "音乐/为何升起 - Mr.wc.flac",
+    "size": 62415640,
+    "size_text": "59.5 MB",
+    "play_url": "downloads/音乐/为何升起 - Mr.wc.flac",
+    "download_url": "downloads/音乐/为何升起 - Mr.wc.flac"
+  },
+  {
+    "name": "乐悠悠 (4) - 梓豪.mp3",
+    "rel_path": "音乐/乐悠悠 (4) - 梓豪.mp3",
+    "size": 5803275,
+    "size_text": "5.5 MB",
+    "play_url": "downloads/音乐/乐悠悠 (4) - 梓豪.mp3",
+    "download_url": "downloads/音乐/乐悠悠 (4) - 梓豪.mp3"
+  },
+  {
+    "name": "云朵物语 - 于行、仁辰.flac",
+    "rel_path": "音乐/云朵物语 - 于行、仁辰.flac",
+    "size": 68819949,
+    "size_text": "65.6 MB",
+    "play_url": "downloads/音乐/云朵物语 - 于行、仁辰.flac",
+    "download_url": "downloads/音乐/云朵物语 - 于行、仁辰.flac"
+  },
+  {
+    "name": "人间惊鸿客 - 叶里.flac",
+    "rel_path": "音乐/人间惊鸿客 - 叶里.flac",
+    "size": 71822175,
+    "size_text": "68.5 MB",
+    "play_url": "downloads/音乐/人间惊鸿客 - 叶里.flac",
+    "download_url": "downloads/音乐/人间惊鸿客 - 叶里.flac"
+  },
+  {
+    "name": "今天我要变成一个干瘪瘪的芝士球.wav - 今天依旧很糟糕.flac",
+    "rel_path": "音乐/今天我要变成一个干瘪瘪的芝士球.wav - 今天依旧很糟糕.flac",
+    "size": 34569325,
+    "size_text": "33.0 MB",
+    "play_url": "downloads/音乐/今天我要变成一个干瘪瘪的芝士球.wav - 今天依旧很糟糕.flac",
+    "download_url": "downloads/音乐/今天我要变成一个干瘪瘪的芝士球.wav - 今天依旧很糟糕.flac"
+  },
+  {
+    "name": "你消失的那一天 - 在虚无中永存.mp3",
+    "rel_path": "音乐/你消失的那一天 - 在虚无中永存.mp3",
+    "size": 6177912,
+    "size_text": "5.9 MB",
+    "play_url": "downloads/音乐/你消失的那一天 - 在虚无中永存.mp3",
+    "download_url": "downloads/音乐/你消失的那一天 - 在虚无中永存.mp3"
+  },
+  {
+    "name": "動く、動く - 水瀬いのり、久保ユリカ.mp3",
+    "rel_path": "音乐/動く、動く - 水瀬いのり、久保ユリカ.mp3",
+    "size": 11507924,
+    "size_text": "11.0 MB",
+    "play_url": "downloads/音乐/動く、動く - 水瀬いのり、久保ユリカ.mp3",
+    "download_url": "downloads/音乐/動く、動く - 水瀬いのり、久保ユリカ.mp3"
+  },
+  {
+    "name": "南山南 - 马頔.flac",
+    "rel_path": "音乐/南山南 - 马頔.flac",
+    "size": 113184986,
+    "size_text": "107.9 MB",
+    "play_url": "downloads/音乐/南山南 - 马頔.flac",
+    "download_url": "downloads/音乐/南山南 - 马頔.flac"
+  },
+  {
+    "name": "反乌托邦 - 乌托邦P.mp3",
+    "rel_path": "音乐/反乌托邦 - 乌托邦P.mp3",
+    "size": 7438971,
+    "size_text": "7.1 MB",
+    "play_url": "downloads/音乐/反乌托邦 - 乌托邦P.mp3",
+    "download_url": "downloads/音乐/反乌托邦 - 乌托邦P.mp3"
+  },
+  {
+    "name": "反方向的钟 - 周杰伦.mp3",
+    "rel_path": "音乐/反方向的钟 - 周杰伦.mp3",
+    "size": 10326349,
+    "size_text": "9.8 MB",
+    "play_url": "downloads/音乐/反方向的钟 - 周杰伦.mp3",
+    "download_url": "downloads/音乐/反方向的钟 - 周杰伦.mp3"
+  },
+  {
+    "name": "叹云兮 (电视剧《芸汐传》片尾曲) - 鞠婧祎.mp3",
+    "rel_path": "音乐/叹云兮 (电视剧《芸汐传》片尾曲) - 鞠婧祎.mp3",
+    "size": 11468436,
+    "size_text": "10.9 MB",
+    "play_url": "downloads/音乐/叹云兮 (电视剧《芸汐传》片尾曲) - 鞠婧祎.mp3",
+    "download_url": "downloads/音乐/叹云兮 (电视剧《芸汐传》片尾曲) - 鞠婧祎.mp3"
+  },
+  {
+    "name": "叹云兮 - 鞠婧祎.flac",
+    "rel_path": "音乐/叹云兮 - 鞠婧祎.flac",
+    "size": 105662611,
+    "size_text": "100.8 MB",
+    "play_url": "downloads/音乐/叹云兮 - 鞠婧祎.flac",
+    "download_url": "downloads/音乐/叹云兮 - 鞠婧祎.flac"
+  },
+  {
+    "name": "唉唉唉唉唉 - иαвιנαи му3вιкα.mp3",
+    "rel_path": "音乐/唉唉唉唉唉 - иαвιנαи му3вιкα.mp3",
+    "size": 5442227,
+    "size_text": "5.2 MB",
+    "play_url": "downloads/音乐/唉唉唉唉唉 - иαвιנαи му3вιкα.mp3",
+    "download_url": "downloads/音乐/唉唉唉唉唉 - иαвιנαи му3вιкα.mp3"
+  },
+  {
+    "name": "喜欢摸鱼 - 神兔小P.flac",
+    "rel_path": "音乐/喜欢摸鱼 - 神兔小P.flac",
+    "size": 41900920,
+    "size_text": "40.0 MB",
+    "play_url": "downloads/音乐/喜欢摸鱼 - 神兔小P.flac",
+    "download_url": "downloads/音乐/喜欢摸鱼 - 神兔小P.flac"
+  },
+  {
+    "name": "喧夏 (Sample this) - 陈浩然_Official.flac",
+    "rel_path": "音乐/喧夏 (Sample this) - 陈浩然_Official.flac",
+    "size": 41422387,
+    "size_text": "39.5 MB",
+    "play_url": "downloads/音乐/喧夏 (Sample this) - 陈浩然_Official.flac",
+    "download_url": "downloads/音乐/喧夏 (Sample this) - 陈浩然_Official.flac"
+  },
+  {
+    "name": "因为你 所以我 - 五月天.flac",
+    "rel_path": "音乐/因为你 所以我 - 五月天.flac",
+    "size": 107495699,
+    "size_text": "102.5 MB",
+    "play_url": "downloads/音乐/因为你 所以我 - 五月天.flac",
+    "download_url": "downloads/音乐/因为你 所以我 - 五月天.flac"
+  },
+  {
+    "name": "地上BGM - 近藤浩治.flac",
+    "rel_path": "音乐/地上BGM - 近藤浩治.flac",
+    "size": 48613664,
+    "size_text": "46.4 MB",
+    "play_url": "downloads/音乐/地上BGM - 近藤浩治.flac",
+    "download_url": "downloads/音乐/地上BGM - 近藤浩治.flac"
+  },
+  {
+    "name": "夏恋 - Otokaze.mp3",
+    "rel_path": "音乐/夏恋 - Otokaze.mp3",
+    "size": 11203982,
+    "size_text": "10.7 MB",
+    "play_url": "downloads/音乐/夏恋 - Otokaze.mp3",
+    "download_url": "downloads/音乐/夏恋 - Otokaze.mp3"
+  },
+  {
+    "name": "夏日尽头的我们 - 命运结构、诗岸.mp3",
+    "rel_path": "音乐/夏日尽头的我们 - 命运结构、诗岸.mp3",
+    "size": 5492605,
+    "size_text": "5.2 MB",
+    "play_url": "downloads/音乐/夏日尽头的我们 - 命运结构、诗岸.mp3",
+    "download_url": "downloads/音乐/夏日尽头的我们 - 命运结构、诗岸.mp3"
+  },
+  {
+    "name": "夜、萤火虫和你 (钢琴治愈版) - ALisa.flac",
+    "rel_path": "音乐/夜、萤火虫和你 (钢琴治愈版) - ALisa.flac",
+    "size": 33950850,
+    "size_text": "32.4 MB",
+    "play_url": "downloads/音乐/夜、萤火虫和你 (钢琴治愈版) - ALisa.flac",
+    "download_url": "downloads/音乐/夜、萤火虫和你 (钢琴治愈版) - ALisa.flac"
+  },
+  {
+    "name": "天国と地獄 - 泉陸奥彦.flac",
+    "rel_path": "音乐/天国と地獄 - 泉陸奥彦.flac",
+    "size": 46694300,
+    "size_text": "44.5 MB",
+    "play_url": "downloads/音乐/天国と地獄 - 泉陸奥彦.flac",
+    "download_url": "downloads/音乐/天国と地獄 - 泉陸奥彦.flac"
+  },
+  {
+    "name": "天府乐 - 姚明.flac",
+    "rel_path": "音乐/天府乐 - 姚明.flac",
+    "size": 34398943,
+    "size_text": "32.8 MB",
+    "play_url": "downloads/音乐/天府乐 - 姚明.flac",
+    "download_url": "downloads/音乐/天府乐 - 姚明.flac"
+  },
+  {
+    "name": "天气之子(钢琴版) - 泽、Siqe.flac",
+    "rel_path": "音乐/天气之子(钢琴版) - 泽、Siqe.flac",
+    "size": 33647632,
+    "size_text": "32.1 MB",
+    "play_url": "downloads/音乐/天气之子(钢琴版) - 泽、Siqe.flac",
+    "download_url": "downloads/音乐/天气之子(钢琴版) - 泽、Siqe.flac"
+  },
+  {
+    "name": "失散的城市 - 武言圣.flac",
+    "rel_path": "音乐/失散的城市 - 武言圣.flac",
+    "size": 78571603,
+    "size_text": "74.9 MB",
+    "play_url": "downloads/音乐/失散的城市 - 武言圣.flac",
+    "download_url": "downloads/音乐/失散的城市 - 武言圣.flac"
+  },
+  {
+    "name": "好景不长 - M3mo.flac",
+    "rel_path": "音乐/好景不长 - M3mo.flac",
+    "size": 47468035,
+    "size_text": "45.3 MB",
+    "play_url": "downloads/音乐/好景不长 - M3mo.flac",
+    "download_url": "downloads/音乐/好景不长 - M3mo.flac"
+  },
+  {
+    "name": "妒恨 Beat - 罗恩Rune.flac",
+    "rel_path": "音乐/妒恨 Beat - 罗恩Rune.flac",
+    "size": 52450639,
+    "size_text": "50.0 MB",
+    "play_url": "downloads/音乐/妒恨 Beat - 罗恩Rune.flac",
+    "download_url": "downloads/音乐/妒恨 Beat - 罗恩Rune.flac"
+  },
+  {
+    "name": "宇宙一隅的我 - 长长长安pwp、洛天依、星尘.mp3",
+    "rel_path": "音乐/宇宙一隅的我 - 长长长安pwp、洛天依、星尘.mp3",
+    "size": 9915689,
+    "size_text": "9.5 MB",
+    "play_url": "downloads/音乐/宇宙一隅的我 - 长长长安pwp、洛天依、星尘.mp3",
+    "download_url": "downloads/音乐/宇宙一隅的我 - 长长长安pwp、洛天依、星尘.mp3"
+  },
+  {
+    "name": "寂寞烟火 - 王贰浪.flac",
+    "rel_path": "音乐/寂寞烟火 - 王贰浪.flac",
+    "size": 83695574,
+    "size_text": "79.8 MB",
+    "play_url": "downloads/音乐/寂寞烟火 - 王贰浪.flac",
+    "download_url": "downloads/音乐/寂寞烟火 - 王贰浪.flac"
+  },
+  {
+    "name": "小心な侵入者 - 根岸貴幸.flac",
+    "rel_path": "音乐/小心な侵入者 - 根岸貴幸.flac",
+    "size": 32768731,
+    "size_text": "31.3 MB",
+    "play_url": "downloads/音乐/小心な侵入者 - 根岸貴幸.flac",
+    "download_url": "downloads/音乐/小心な侵入者 - 根岸貴幸.flac"
+  },
+  {
+    "name": "小猫坏事做尽！ - 小鷹.flac",
+    "rel_path": "音乐/小猫坏事做尽！ - 小鷹.flac",
+    "size": 36983203,
+    "size_text": "35.3 MB",
+    "play_url": "downloads/音乐/小猫坏事做尽！ - 小鷹.flac",
+    "download_url": "downloads/音乐/小猫坏事做尽！ - 小鷹.flac"
+  },
+  {
+    "name": "少年幻想总是诗 - 乌托邦P、星尘.mp3",
+    "rel_path": "音乐/少年幻想总是诗 - 乌托邦P、星尘.mp3",
+    "size": 7897067,
+    "size_text": "7.5 MB",
+    "play_url": "downloads/音乐/少年幻想总是诗 - 乌托邦P、星尘.mp3",
+    "download_url": "downloads/音乐/少年幻想总是诗 - 乌托邦P、星尘.mp3"
+  },
+  {
+    "name": "山海皆可平 - 龙颜、龙颜音乐、抓不住旳青春.flac",
+    "rel_path": "音乐/山海皆可平 - 龙颜、龙颜音乐、抓不住旳青春.flac",
+    "size": 29420754,
+    "size_text": "28.1 MB",
+    "play_url": "downloads/音乐/山海皆可平 - 龙颜、龙颜音乐、抓不住旳青春.flac",
+    "download_url": "downloads/音乐/山海皆可平 - 龙颜、龙颜音乐、抓不住旳青春.flac"
+  },
+  {
+    "name": "希望有羽毛和翅膀 - 知更鸟、HOYO-MiX、Chevy.mp3",
+    "rel_path": "音乐/希望有羽毛和翅膀 - 知更鸟、HOYO-MiX、Chevy.mp3",
+    "size": 10003113,
+    "size_text": "9.5 MB",
+    "play_url": "downloads/音乐/希望有羽毛和翅膀 - 知更鸟、HOYO-MiX、Chevy.mp3",
+    "download_url": "downloads/音乐/希望有羽毛和翅膀 - 知更鸟、HOYO-MiX、Chevy.mp3"
+  },
+  {
+    "name": "幻昼4.0 - 渡川.flac",
+    "rel_path": "音乐/幻昼4.0 - 渡川.flac",
+    "size": 30783360,
+    "size_text": "29.4 MB",
+    "play_url": "downloads/音乐/幻昼4.0 - 渡川.flac",
+    "download_url": "downloads/音乐/幻昼4.0 - 渡川.flac"
+  },
+  {
+    "name": "当此刻听见你我 - 知晏、Zenn白景.mp3",
+    "rel_path": "音乐/当此刻听见你我 - 知晏、Zenn白景.mp3",
+    "size": 7590660,
+    "size_text": "7.2 MB",
+    "play_url": "downloads/音乐/当此刻听见你我 - 知晏、Zenn白景.mp3",
+    "download_url": "downloads/音乐/当此刻听见你我 - 知晏、Zenn白景.mp3"
+  },
+  {
+    "name": "悬溺 - 葛东琪.flac",
+    "rel_path": "音乐/悬溺 - 葛东琪.flac",
+    "size": 71038366,
+    "size_text": "67.7 MB",
+    "play_url": "downloads/音乐/悬溺 - 葛东琪.flac",
+    "download_url": "downloads/音乐/悬溺 - 葛东琪.flac"
+  },
+  {
+    "name": "情绪回收站 - 失落花园_.flac",
+    "rel_path": "音乐/情绪回收站 - 失落花园_.flac",
+    "size": 45461796,
+    "size_text": "43.4 MB",
+    "play_url": "downloads/音乐/情绪回收站 - 失落花园_.flac",
+    "download_url": "downloads/音乐/情绪回收站 - 失落花园_.flac"
+  },
+  {
+    "name": "想 - 胡思乱想P、凌尘_P、洛天依.mp3",
+    "rel_path": "音乐/想 - 胡思乱想P、凌尘_P、洛天依.mp3",
+    "size": 8455889,
+    "size_text": "8.1 MB",
+    "play_url": "downloads/音乐/想 - 胡思乱想P、凌尘_P、洛天依.mp3",
+    "download_url": "downloads/音乐/想 - 胡思乱想P、凌尘_P、洛天依.mp3"
+  },
+  {
+    "name": "我们的乐队-溯Reverse (治愈版)（陈宇鸣 remix） - 陈宇鸣.mp3",
+    "rel_path": "音乐/我们的乐队-溯Reverse (治愈版)（陈宇鸣 remix） - 陈宇鸣.mp3",
+    "size": 5511546,
+    "size_text": "5.3 MB",
+    "play_url": "downloads/音乐/我们的乐队-溯Reverse (治愈版)（陈宇鸣 remix） - 陈宇鸣.mp3",
+    "download_url": "downloads/音乐/我们的乐队-溯Reverse (治愈版)（陈宇鸣 remix） - 陈宇鸣.mp3"
+  },
+  {
+    "name": "我心澎湃 - 雷军.flac",
+    "rel_path": "音乐/我心澎湃 - 雷军.flac",
+    "size": 20346761,
+    "size_text": "19.4 MB",
+    "play_url": "downloads/音乐/我心澎湃 - 雷军.flac",
+    "download_url": "downloads/音乐/我心澎湃 - 雷军.flac"
+  },
+  {
+    "name": "我想当风 - 鹿先森乐队.flac",
+    "rel_path": "音乐/我想当风 - 鹿先森乐队.flac",
+    "size": 92536288,
+    "size_text": "88.2 MB",
+    "play_url": "downloads/音乐/我想当风 - 鹿先森乐队.flac",
+    "download_url": "downloads/音乐/我想当风 - 鹿先森乐队.flac"
+  },
+  {
+    "name": "所念皆星河 - CMJ.flac",
+    "rel_path": "音乐/所念皆星河 - CMJ.flac",
+    "size": 72675441,
+    "size_text": "69.3 MB",
+    "play_url": "downloads/音乐/所念皆星河 - CMJ.flac",
+    "download_url": "downloads/音乐/所念皆星河 - CMJ.flac"
+  },
+  {
+    "name": "打上花火 - Daoko、米津玄師.mp3",
+    "rel_path": "音乐/打上花火 - Daoko、米津玄師.mp3",
+    "size": 11844064,
+    "size_text": "11.3 MB",
+    "play_url": "downloads/音乐/打上花火 - Daoko、米津玄師.mp3",
+    "download_url": "downloads/音乐/打上花火 - Daoko、米津玄師.mp3"
+  },
+  {
+    "name": "打火机 - Penny.flac",
+    "rel_path": "音乐/打火机 - Penny.flac",
+    "size": 55837316,
+    "size_text": "53.3 MB",
+    "play_url": "downloads/音乐/打火机 - Penny.flac",
+    "download_url": "downloads/音乐/打火机 - Penny.flac"
+  },
+  {
+    "name": "拼接乌托邦 - Ciyo、见过夏天P、乌托邦P.flac",
+    "rel_path": "音乐/拼接乌托邦 - Ciyo、见过夏天P、乌托邦P.flac",
+    "size": 43610858,
+    "size_text": "41.6 MB",
+    "play_url": "downloads/音乐/拼接乌托邦 - Ciyo、见过夏天P、乌托邦P.flac",
+    "download_url": "downloads/音乐/拼接乌托邦 - Ciyo、见过夏天P、乌托邦P.flac"
+  },
+  {
+    "name": "放空 - 大籽、Lil E、A1 TRIP.flac",
+    "rel_path": "音乐/放空 - 大籽、Lil E、A1 TRIP.flac",
+    "size": 51563389,
+    "size_text": "49.2 MB",
+    "play_url": "downloads/音乐/放空 - 大籽、Lil E、A1 TRIP.flac",
+    "download_url": "downloads/音乐/放空 - 大籽、Lil E、A1 TRIP.flac"
+  },
+  {
+    "name": "放课后 - 渡辺剛.flac",
+    "rel_path": "音乐/放课后 - 渡辺剛.flac",
+    "size": 36038288,
+    "size_text": "34.4 MB",
+    "play_url": "downloads/音乐/放课后 - 渡辺剛.flac",
+    "download_url": "downloads/音乐/放课后 - 渡辺剛.flac"
+  },
+  {
+    "name": "无名的人 - 毛不易.flac",
+    "rel_path": "音乐/无名的人 - 毛不易.flac",
+    "size": 95235037,
+    "size_text": "90.8 MB",
+    "play_url": "downloads/音乐/无名的人 - 毛不易.flac",
+    "download_url": "downloads/音乐/无名的人 - 毛不易.flac"
+  },
+  {
+    "name": "时钟嘀嗒 - 哆啦慢.mp3",
+    "rel_path": "音乐/时钟嘀嗒 - 哆啦慢.mp3",
+    "size": 8549285,
+    "size_text": "8.2 MB",
+    "play_url": "downloads/音乐/时钟嘀嗒 - 哆啦慢.mp3",
+    "download_url": "downloads/音乐/时钟嘀嗒 - 哆啦慢.mp3"
+  },
+  {
+    "name": "晴天 - 周杰伦.mp3",
+    "rel_path": "音乐/晴天 - 周杰伦.mp3",
+    "size": 10792943,
+    "size_text": "10.3 MB",
+    "play_url": "downloads/音乐/晴天 - 周杰伦.mp3",
+    "download_url": "downloads/音乐/晴天 - 周杰伦.mp3"
+  },
+  {
+    "name": "曹操 - 林俊杰.mp3",
+    "rel_path": "音乐/曹操 - 林俊杰.mp3",
+    "size": 9956595,
+    "size_text": "9.5 MB",
+    "play_url": "downloads/音乐/曹操 - 林俊杰.mp3",
+    "download_url": "downloads/音乐/曹操 - 林俊杰.mp3"
+  },
+  {
+    "name": "月茶会 - 灰澈.flac",
+    "rel_path": "音乐/月茶会 - 灰澈.flac",
+    "size": 68651169,
+    "size_text": "65.5 MB",
+    "play_url": "downloads/音乐/月茶会 - 灰澈.flac",
+    "download_url": "downloads/音乐/月茶会 - 灰澈.flac"
+  },
+  {
+    "name": "森林之夜（DInxm） - DInxm Robinson.mp3",
+    "rel_path": "音乐/森林之夜（DInxm） - DInxm Robinson.mp3",
+    "size": 13350053,
+    "size_text": "12.7 MB",
+    "play_url": "downloads/音乐/森林之夜（DInxm） - DInxm Robinson.mp3",
+    "download_url": "downloads/音乐/森林之夜（DInxm） - DInxm Robinson.mp3"
+  },
+  {
+    "name": "死机之歌 - Dj Titon.mp3",
+    "rel_path": "音乐/死机之歌 - Dj Titon.mp3",
+    "size": 1640947,
+    "size_text": "1.6 MB",
+    "play_url": "downloads/音乐/死机之歌 - Dj Titon.mp3",
+    "download_url": "downloads/音乐/死机之歌 - Dj Titon.mp3"
+  },
+  {
+    "name": "水(Original Mix) - LeeAlive.flac",
+    "rel_path": "音乐/水(Original Mix) - LeeAlive.flac",
+    "size": 67142913,
+    "size_text": "64.0 MB",
+    "play_url": "downloads/音乐/水(Original Mix) - LeeAlive.flac",
+    "download_url": "downloads/音乐/水(Original Mix) - LeeAlive.flac"
+  },
+  {
+    "name": "沢の河城工務店 - Foxtail-Grass Studio.flac",
+    "rel_path": "音乐/沢の河城工務店 - Foxtail-Grass Studio.flac",
+    "size": 52498841,
+    "size_text": "50.1 MB",
+    "play_url": "downloads/音乐/沢の河城工務店 - Foxtail-Grass Studio.flac",
+    "download_url": "downloads/音乐/沢の河城工務店 - Foxtail-Grass Studio.flac"
+  },
+  {
+    "name": "浮光 (The History) - Jannik.flac",
+    "rel_path": "音乐/浮光 (The History) - Jannik.flac",
+    "size": 85280069,
+    "size_text": "81.3 MB",
+    "play_url": "downloads/音乐/浮光 (The History) - Jannik.flac",
+    "download_url": "downloads/音乐/浮光 (The History) - Jannik.flac"
+  },
+  {
+    "name": "海屿你 - 马也_Crabbit.flac",
+    "rel_path": "音乐/海屿你 - 马也_Crabbit.flac",
+    "size": 114272329,
+    "size_text": "109.0 MB",
+    "play_url": "downloads/音乐/海屿你 - 马也_Crabbit.flac",
+    "download_url": "downloads/音乐/海屿你 - 马也_Crabbit.flac"
+  },
+  {
+    "name": "海阔天空 - Beyond.flac",
+    "rel_path": "音乐/海阔天空 - Beyond.flac",
+    "size": 85489856,
+    "size_text": "81.5 MB",
+    "play_url": "downloads/音乐/海阔天空 - Beyond.flac",
+    "download_url": "downloads/音乐/海阔天空 - Beyond.flac"
+  },
+  {
+    "name": "海阔天空尾奏（笛子旋律纯享） - SHA8.flac",
+    "rel_path": "音乐/海阔天空尾奏（笛子旋律纯享） - SHA8.flac",
+    "size": 38183962,
+    "size_text": "36.4 MB",
+    "play_url": "downloads/音乐/海阔天空尾奏（笛子旋律纯享） - SHA8.flac",
+    "download_url": "downloads/音乐/海阔天空尾奏（笛子旋律纯享） - SHA8.flac"
+  },
+  {
+    "name": "演员 - 薛之谦.flac",
+    "rel_path": "音乐/演员 - 薛之谦.flac",
+    "size": 89843643,
+    "size_text": "85.7 MB",
+    "play_url": "downloads/音乐/演员 - 薛之谦.flac",
+    "download_url": "downloads/音乐/演员 - 薛之谦.flac"
+  },
+  {
+    "name": "烟袋斜街 - 接个吻，开一枪、SaMZIng.mp3",
+    "rel_path": "音乐/烟袋斜街 - 接个吻，开一枪、SaMZIng.mp3",
+    "size": 8621202,
+    "size_text": "8.2 MB",
+    "play_url": "downloads/音乐/烟袋斜街 - 接个吻，开一枪、SaMZIng.mp3",
+    "download_url": "downloads/音乐/烟袋斜街 - 接个吻，开一枪、SaMZIng.mp3"
+  },
+  {
+    "name": "热爱105°C的你 - 阿肆.flac",
+    "rel_path": "音乐/热爱105°C的你 - 阿肆.flac",
+    "size": 73613744,
+    "size_text": "70.2 MB",
+    "play_url": "downloads/音乐/热爱105°C的你 - 阿肆.flac",
+    "download_url": "downloads/音乐/热爱105°C的你 - 阿肆.flac"
+  },
+  {
+    "name": "爱情讯息 - 郭静.flac",
+    "rel_path": "音乐/爱情讯息 - 郭静.flac",
+    "size": 109858694,
+    "size_text": "104.8 MB",
+    "play_url": "downloads/音乐/爱情讯息 - 郭静.flac",
+    "download_url": "downloads/音乐/爱情讯息 - 郭静.flac"
+  },
+  {
+    "name": "牵着蜗牛去散步 - 张辉.flac",
+    "rel_path": "音乐/牵着蜗牛去散步 - 张辉.flac",
+    "size": 42537443,
+    "size_text": "40.6 MB",
+    "play_url": "downloads/音乐/牵着蜗牛去散步 - 张辉.flac",
+    "download_url": "downloads/音乐/牵着蜗牛去散步 - 张辉.flac"
+  },
+  {
+    "name": "白鸽乌鸦相爱的戏码 - 潘成（皮卡潘）.mp3",
+    "rel_path": "音乐/白鸽乌鸦相爱的戏码 - 潘成（皮卡潘）.mp3",
+    "size": 6947255,
+    "size_text": "6.6 MB",
+    "play_url": "downloads/音乐/白鸽乌鸦相爱的戏码 - 潘成（皮卡潘）.mp3",
+    "download_url": "downloads/音乐/白鸽乌鸦相爱的戏码 - 潘成（皮卡潘）.mp3"
+  },
+  {
+    "name": "第57次取消发送 - 菲菲公主（陆绮菲）.flac",
+    "rel_path": "音乐/第57次取消发送 - 菲菲公主（陆绮菲）.flac",
+    "size": 64651671,
+    "size_text": "61.7 MB",
+    "play_url": "downloads/音乐/第57次取消发送 - 菲菲公主（陆绮菲）.flac",
+    "download_url": "downloads/音乐/第57次取消发送 - 菲菲公主（陆绮菲）.flac"
+  },
+  {
+    "name": "第九套广播体操 - 群星.flac",
+    "rel_path": "音乐/第九套广播体操 - 群星.flac",
+    "size": 91842941,
+    "size_text": "87.6 MB",
+    "play_url": "downloads/音乐/第九套广播体操 - 群星.flac",
+    "download_url": "downloads/音乐/第九套广播体操 - 群星.flac"
+  },
+  {
+    "name": "罗生门（Follow） - 梨冻紧、Wiz_H张子豪.flac",
+    "rel_path": "音乐/罗生门（Follow） - 梨冻紧、Wiz_H张子豪.flac",
+    "size": 88358216,
+    "size_text": "84.3 MB",
+    "play_url": "downloads/音乐/罗生门（Follow） - 梨冻紧、Wiz_H张子豪.flac",
+    "download_url": "downloads/音乐/罗生门（Follow） - 梨冻紧、Wiz_H张子豪.flac"
+  },
+  {
+    "name": "若夏日终将完结 - Henry_28、洛天依.flac",
+    "rel_path": "音乐/若夏日终将完结 - Henry_28、洛天依.flac",
+    "size": 66306002,
+    "size_text": "63.2 MB",
+    "play_url": "downloads/音乐/若夏日终将完结 - Henry_28、洛天依.flac",
+    "download_url": "downloads/音乐/若夏日终将完结 - Henry_28、洛天依.flac"
+  },
+  {
+    "name": "若月亮没来 (若是月亮还没来) - 童小丽、郭小进.flac",
+    "rel_path": "音乐/若月亮没来 (若是月亮还没来) - 童小丽、郭小进.flac",
+    "size": 60010728,
+    "size_text": "57.2 MB",
+    "play_url": "downloads/音乐/若月亮没来 (若是月亮还没来) - 童小丽、郭小进.flac",
+    "download_url": "downloads/音乐/若月亮没来 (若是月亮还没来) - 童小丽、郭小进.flac"
+  },
+  {
+    "name": "苦悩の旋律 - 上田益.flac",
+    "rel_path": "音乐/苦悩の旋律 - 上田益.flac",
+    "size": 53673535,
+    "size_text": "51.2 MB",
+    "play_url": "downloads/音乐/苦悩の旋律 - 上田益.flac",
+    "download_url": "downloads/音乐/苦悩の旋律 - 上田益.flac"
+  },
+  {
+    "name": "茫 - 李润祺.flac",
+    "rel_path": "音乐/茫 - 李润祺.flac",
+    "size": 76751420,
+    "size_text": "73.2 MB",
+    "play_url": "downloads/音乐/茫 - 李润祺.flac",
+    "download_url": "downloads/音乐/茫 - 李润祺.flac"
+  },
+  {
+    "name": "落泪 - DJ小小智.flac",
+    "rel_path": "音乐/落泪 - DJ小小智.flac",
+    "size": 39222843,
+    "size_text": "37.4 MB",
+    "play_url": "downloads/音乐/落泪 - DJ小小智.flac",
+    "download_url": "downloads/音乐/落泪 - DJ小小智.flac"
+  },
+  {
+    "name": "葡萄物语 - 于行、仁辰.flac",
+    "rel_path": "音乐/葡萄物语 - 于行、仁辰.flac",
+    "size": 62863413,
+    "size_text": "60.0 MB",
+    "play_url": "downloads/音乐/葡萄物语 - 于行、仁辰.flac",
+    "download_url": "downloads/音乐/葡萄物语 - 于行、仁辰.flac"
+  },
+  {
+    "name": "蜘蛛糸モノポリー - sasakure.UK、初音ミク.mp3",
+    "rel_path": "音乐/蜘蛛糸モノポリー - sasakure.UK、初音ミク.mp3",
+    "size": 11292533,
+    "size_text": "10.8 MB",
+    "play_url": "downloads/音乐/蜘蛛糸モノポリー - sasakure.UK、初音ミク.mp3",
+    "download_url": "downloads/音乐/蜘蛛糸モノポリー - sasakure.UK、初音ミク.mp3"
+  },
+  {
+    "name": "见到你真开心！ - 小鷹.flac",
+    "rel_path": "音乐/见到你真开心！ - 小鷹.flac",
+    "size": 36342007,
+    "size_text": "34.7 MB",
+    "play_url": "downloads/音乐/见到你真开心！ - 小鷹.flac",
+    "download_url": "downloads/音乐/见到你真开心！ - 小鷹.flac"
+  },
+  {
+    "name": "起风了 - 周深.flac",
+    "rel_path": "音乐/起风了 - 周深.flac",
+    "size": 117453956,
+    "size_text": "112.0 MB",
+    "play_url": "downloads/音乐/起风了 - 周深.flac",
+    "download_url": "downloads/音乐/起风了 - 周深.flac"
+  },
+  {
+    "name": "雨爱 - 杨丞琳.flac",
+    "rel_path": "音乐/雨爱 - 杨丞琳.flac",
+    "size": 108239895,
+    "size_text": "103.2 MB",
+    "play_url": "downloads/音乐/雨爱 - 杨丞琳.flac",
+    "download_url": "downloads/音乐/雨爱 - 杨丞琳.flac"
+  },
+  {
+    "name": "雾里 - 姚六一.flac",
+    "rel_path": "音乐/雾里 - 姚六一.flac",
+    "size": 94199276,
+    "size_text": "89.8 MB",
+    "play_url": "downloads/音乐/雾里 - 姚六一.flac",
+    "download_url": "downloads/音乐/雾里 - 姚六一.flac"
+  },
+  {
+    "name": "青春圆舞曲 - 昨日的青空酱、洛天依.flac",
+    "rel_path": "音乐/青春圆舞曲 - 昨日的青空酱、洛天依.flac",
+    "size": 67315203,
+    "size_text": "64.2 MB",
+    "play_url": "downloads/音乐/青春圆舞曲 - 昨日的青空酱、洛天依.flac",
+    "download_url": "downloads/音乐/青春圆舞曲 - 昨日的青空酱、洛天依.flac"
+  },
+  {
+    "name": "风居住的街道 - 磯村由紀子.flac",
+    "rel_path": "音乐/风居住的街道 - 磯村由紀子.flac",
+    "size": 93271514,
+    "size_text": "89.0 MB",
+    "play_url": "downloads/音乐/风居住的街道 - 磯村由紀子.flac",
+    "download_url": "downloads/音乐/风居住的街道 - 磯村由紀子.flac"
+  },
+  {
+    "name": "麻雀 - 李荣浩.flac",
+    "rel_path": "音乐/麻雀 - 李荣浩.flac",
+    "size": 96647059,
+    "size_text": "92.2 MB",
+    "play_url": "downloads/音乐/麻雀 - 李荣浩.flac",
+    "download_url": "downloads/音乐/麻雀 - 李荣浩.flac"
+  }
+]

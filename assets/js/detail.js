@@ -1,4 +1,4 @@
-/* detail.js - 资源详情页渲染逻辑 */
+﻿/* detail.js - 资源详情页渲染逻辑 */
 
 (function () {
   const $ = sel => document.querySelector(sel);
@@ -25,10 +25,10 @@
       '文档资料': '本资源属于文档资料类别，为文本、清单或说明性文档，可在线查看或下载保存。',
       'AI工具': '本资源属于 AI 工具类别，为人工智能相关应用或工具。',
     };
-    paras.push(catText[cat] || '本资源为优选资源库收录的资源项目，可直接下载使用。');
+    paras.push(catText[cat] || '本资源为breezebox收录的资源项目，可直接下载使用。');
 
     if (it.kind === 'folder') {
-      paras.push(`该资源为文件夹合集，内部包含 ${it.child_count} 项内容，可通过下方「打包下载 ZIP」一键打包全部文件。`);
+      paras.push(`该资源为文件夹合集，内部包含 ${it.child_count} 项内容，可通过下方「文件夹内部文件」逐个下载全部文件。`);
     } else {
       const ext = (it.type || '').toLowerCase();
       if (ext === 'exe') paras.push('该文件为 Windows 可执行程序安装包，下载完成后双击运行，按安装向导提示即可完成安装。');
@@ -74,10 +74,9 @@
 
     let files = [];
     try {
-      const res = await fetch('/api/children?path=' + encodeURIComponent(it.rel_path), { cache: 'no-store' });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      const data = await res.json();
-      files = data.files || [];
+      const childrenData = await API.getChildren();
+      const entry = childrenData[it.rel_path];
+      files = (entry && entry.files) ? entry.files : [];
     } catch (e) {
       box.innerHTML = '<p class="inner-hint">内部文件加载失败，请刷新重试</p>';
       console.error(e);
@@ -138,10 +137,10 @@
       if (!it) {
         $('#loadingWrap').hidden = true;
         $('#notFound').hidden = false;
-        document.title = '资源不存在 - 优选资源库';
+        document.title = '资源不存在 - breezebox';
         return;
       }
-      document.title = it.name + ' - 优选资源库';
+      document.title = it.name + ' - breezebox';
       $('#dCategory').textContent = it.category;
       $('#dType').textContent = it.kind === 'folder' ? '文件夹/合集' : it.type;
       $('#dName').textContent = it.name;
@@ -164,7 +163,7 @@
     } catch (e) {
       $('#loadingWrap').hidden = true;
       $('#notFound').hidden = false;
-      $('#notFound .empty-sub').textContent = '数据加载失败，请确认服务已启动后刷新';
+      $('#notFound .empty-sub').textContent = '数据加载失败，请刷新重试';
       console.error(e);
     }
   }

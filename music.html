@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>音乐库 - 优选资源库</title>
+<title>音乐库 - breezebox</title>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="page-music">
@@ -18,7 +18,7 @@
 <!-- 顶部导航 -->
 <nav class="topnav glass">
   <div class="container nav-inner">
-    <a class="brand" href="index.html">优选资源库</a>
+    <a class="brand" href="index.html">breezebox</a>
     <a class="nav-back" href="index.html">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
       返回主页
@@ -39,12 +39,12 @@
     <span class="search-count" id="musicSearchCount"></span>
   </div>
 
-  <p class="music-hint reveal" data-delay="1">悬停音乐条目即可播放 / 下载，放入新歌曲后刷新页面自动同步</p>
+  <p class="music-hint reveal" data-delay="1">悬停音乐条目即可播放 / 下载，放入新歌曲后运行 build_static.py 更新数据</p>
 
   <!-- 加载中 -->
   <div class="loading-wrap" id="loadingWrap">
     <div class="spinner"></div>
-    <p>正在扫描音乐文件夹…</p>
+    <p>正在加载音乐列表…</p>
   </div>
 
   <!-- 空状态 -->
@@ -53,7 +53,7 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
     </div>
     <p class="empty-title">音乐文件夹是空的</p>
-    <p class="empty-sub">将音频文件放入网站目录下的「音乐」文件夹后刷新本页</p>
+    <p class="empty-sub">将音频文件放入 downloads 目录下的音乐文件夹，运行 build_static.py 更新数据后刷新本页</p>
   </div>
 
   <!-- 音乐列表 -->
@@ -71,7 +71,7 @@
 
 <footer class="footer">
   <div class="container">
-    <p class="footer-note">优选资源库 · 音乐随放随下 · 实时同步</p>
+    <p class="footer-note">breezebox · 音乐随放随下 · 实时同步</p>
   </div>
 </footer>
 

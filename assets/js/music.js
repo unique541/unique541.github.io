@@ -1,4 +1,4 @@
-/* music.js - 音乐库页面逻辑：动态扫描 / 在线播放 / 下载 */
+/* music.js - 音乐库页面逻辑：静态数据 / 在线播放 / 下载 */
 (function () {
   'use strict';
 
@@ -13,7 +13,7 @@
   const closeBtn = document.getElementById('musicPlayerClose');
 
   let currentPlay = null; // 当前正在播放的歌曲相对路径
-  let allItems = [];      // 服务端返回的完整音乐列表（供搜索过滤）
+  let allItems = [];      // 静态数据中的完整音乐列表（供搜索过滤）
 
   // 图标（与站点风格一致的描边 SVG）
   const ICON_PLAY =
@@ -139,9 +139,7 @@
     loadingEl.hidden = false;
     emptyEl.hidden = true;
     try {
-      const res = await fetch('/api/music', { cache: 'no-store' });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      const data = await res.json();
+      const data = await API.getMusic();
       loadingEl.hidden = true;
       const raw = (data && data.music !== undefined) ? data.music : data;
       const items = Array.isArray(raw) ? raw : [];
@@ -157,7 +155,7 @@
       loadingEl.hidden = true;
       emptyEl.hidden = false;
       emptyEl.querySelector('.empty-title').textContent = '音乐列表加载失败';
-      emptyEl.querySelector('.empty-sub').textContent = '请确认服务已启动（start_server.py）后刷新重试';
+      emptyEl.querySelector('.empty-sub').textContent = '请确认音乐数据文件存在后刷新重试';
       console.error('加载音乐列表失败:', err);
     }
   }

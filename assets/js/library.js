@@ -25,7 +25,7 @@
       $('#loadingWrap').hidden = true;
       $('#emptyState').hidden = false;
       $('#emptyState .empty-title').textContent = '资源加载失败';
-      $('#emptyState .empty-sub').textContent = '请确认已通过 start_server.py 启动服务后刷新页面';
+      $('#emptyState .empty-sub').textContent = '请确认资源数据文件存在后刷新页面';
       console.error(e);
     }
   }

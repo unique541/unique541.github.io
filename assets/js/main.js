@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         footerStats.innerHTML = `当前收录 <strong>${data.count}</strong> 项资源（${data.file_count} 个可下载文件） · 最近更新 ${data.updated_at || '-'}`;
       })
       .catch(() => {
-        footerStats.textContent = '资源统计加载失败，请确认服务已启动（python start_server.py）';
+        footerStats.textContent = '资源统计加载失败，请刷新重试';
       });
   }
 });

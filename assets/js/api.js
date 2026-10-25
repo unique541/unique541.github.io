@@ -1,12 +1,12 @@
-/* api.js - 资源数据请求封装 */
+﻿/* api.js - 资源数据请求封装（静态化版：读取 assets/data 静态 JSON，适配 GitHub Pages） */
 const API = {
   /**
-   * 获取全部资源列表（实时请求服务端动态扫描结果）
-   * @returns {Promise<{root:string, count:number, file_count:number, updated_at:string, resources:Array}>}
+   * 获取全部资源列表（读取静态数据快照 assets/data/resources.json）
+   * @returns {Promise<{count:number, file_count:number, updated_at:string, resources:Array}>}
    */
   async getResources() {
-    const res = await fetch('/api/resources', { cache: 'no-store' });
-    if (!res.ok) throw new Error('API 请求失败: HTTP ' + res.status);
+    const res = await fetch('assets/data/resources.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('数据加载失败: HTTP ' + res.status);
     return res.json();
   },
 
@@ -19,19 +19,30 @@ const API = {
   },
 
   /**
-   * 生成下载 URL（相对路径逐段编码，保证中文与特殊字符安全）
+   * 获取各合集内部文件清单（读取静态数据快照 assets/data/children.json）
+   * @returns {Promise<Object>} 以合集相对路径为键的 Map
    */
-  downloadUrl(relPath) {
-    const encoded = relPath.split('/').map(seg => encodeURIComponent(seg)).join('/');
-    return '/download/' + encoded;
+  async getChildren() {
+    const res = await fetch('assets/data/children.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('数据加载失败: HTTP ' + res.status);
+    return res.json();
   },
 
   /**
-   * 生成文件夹整体打包 ZIP 下载 URL
+   * 获取音乐列表（读取静态数据快照 assets/data/music.json）
    */
-  zipUrl(relPath) {
+  async getMusic() {
+    const res = await fetch('assets/data/music.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('数据加载失败: HTTP ' + res.status);
+    return res.json();
+  },
+
+  /**
+   * 生成下载 URL（相对 downloads/ 路径逐段编码，保证中文与特殊字符安全）
+   */
+  downloadUrl(relPath) {
     const encoded = relPath.split('/').map(seg => encodeURIComponent(seg)).join('/');
-    return '/api/zip?path=' + encoded;
+    return 'downloads/' + encoded;
   },
 
   /**
