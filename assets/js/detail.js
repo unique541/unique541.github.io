@@ -1,4 +1,4 @@
-﻿/* detail.js - 资源详情页渲染逻辑 */
+/* detail.js - 资源详情页渲染逻辑 */
 
 (function () {
   const $ = sel => document.querySelector(sel);
@@ -49,12 +49,9 @@
   function buildDownloadZone(it) {
     const zone = $('#dDownloadZone');
     if (it.kind === 'folder') {
+      // 纯静态站点没有后端，无法在线打包 ZIP，改为引导逐个下载
       zone.innerHTML = `
-        <a class="btn btn-primary btn-glow" href="${API.zipUrl(it.rel_path)}">
-          打包下载 ZIP
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        </a>
-        <div class="download-size">合集包含 <strong>${it.child_count}</strong> 项文件，点击一键打包下载（自动排除敏感子文件夹）</div>`;
+        <div class="download-size">合集包含 <strong>${it.child_count}</strong> 项文件，请在下方「文件夹内部文件」中逐个下载。</div>`;
     } else {
       zone.innerHTML = `
         <a class="btn btn-primary btn-glow" href="${API.downloadUrl(it.rel_path)}">
