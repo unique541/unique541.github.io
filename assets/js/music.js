@@ -1,4 +1,6 @@
-/* music.js - 音乐库页面逻辑：静态数据 / 在线播放 / 下载 */
+/* music.js - 音乐库页面逻辑：静态数据 / 在线播放 / 下载
+ * 地址统一由 API.resolve 解析（外链 > downloads/ 实体 > 待托管），
+ * 无可用地址的曲目不发出任何播放/下载请求，避免 404。 */
 (function () {
   'use strict';
 
@@ -23,13 +25,34 @@
   const ICON_MUSIC =
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>';
 
+  const TIP_UNAVAILABLE = '该曲目暂未托管';
+
+  function isReady(it) {
+    return !!(it && it._res && it._res.url);
+  }
+
+  // 在条目副标题处闪示一次提示（不改样式主题，仅临时替换文本）
+  function flashTip(it, msg) {
+    const row = listEl.querySelector('.music-item[data-index="' + it.idx + '"]');
+    if (!row) return;
+    const tip = row.querySelector('.music-size');
+    if (!tip || tip.dataset.locked === '1') return;
+    const original = tip.textContent;
+    tip.dataset.locked = '1';
+    tip.textContent = msg;
+    setTimeout(() => {
+      tip.textContent = original;
+      delete tip.dataset.locked;
+    }, 1800);
+  }
+
   function renderList(items) {
     listEl.innerHTML = '';
     items.forEach((it, idx) => {
       it.idx = idx; // 用于播放时定位条目
-      const item = document.createElement('div');
-      item.className = 'music-item reveal' + (idx === 0 ? ' visible' : '');
-      item.dataset.index = idx;
+      const row = document.createElement('div');
+      row.className = 'music-item reveal' + (idx === 0 ? ' visible' : '');
+      row.dataset.index = idx;
 
       const cover = document.createElement('div');
       cover.className = 'music-cover';
@@ -42,35 +65,70 @@
       name.textContent = it.name;
       const size = document.createElement('div');
       size.className = 'music-size';
-      size.textContent = it.size_text || API.formatSize(it.size);
+      const sizeText = it.size_text || API.formatSize(it.size);
+      // 无可用地址时在副标题直接标注，让用户明确知道原因
+      size.textContent = isReady(it) ? sizeText : sizeText + ' · ' + TIP_UNAVAILABLE;
       info.appendChild(name);
       info.appendChild(size);
 
       const actions = document.createElement('div');
       actions.className = 'music-actions';
 
+      // 播放按钮：无可用地址则禁用并拦截点击，绝不向不存在的地址发起请求
       const playBtn = document.createElement('button');
       playBtn.className = 'music-btn music-play';
-      playBtn.title = '播放 ' + it.name;
       playBtn.setAttribute('aria-label', '播放');
       playBtn.innerHTML = ICON_PLAY;
-      playBtn.addEventListener('click', () => play(it));
+      if (isReady(it)) {
+        playBtn.title = '播放 ' + it.name;
+        playBtn.addEventListener('click', () => play(it));
+      } else {
+        playBtn.title = TIP_UNAVAILABLE + '，无法播放：' + it.name;
+        playBtn.setAttribute('aria-disabled', 'true');
+        playBtn.disabled = true;
+        playBtn.style.opacity = '0.45';
+        playBtn.style.cursor = 'not-allowed';
+        playBtn.addEventListener('click', ev => {
+          ev.preventDefault();
+          flashTip(it, TIP_UNAVAILABLE + '，无法播放');
+        });
+      }
 
+      // 下载按钮：外链新窗口打开，本地实体走 downloads/，缺失则禁用
       const dlBtn = document.createElement('a');
       dlBtn.className = 'music-btn music-dl';
-      dlBtn.href = it.download_url;
-      dlBtn.title = '下载 ' + it.name;
       dlBtn.setAttribute('aria-label', '下载');
-      dlBtn.setAttribute('download', '');
       dlBtn.innerHTML = ICON_DOWNLOAD;
+      if (isReady(it)) {
+        dlBtn.href = it._res.url;
+        if (it._res.external) {
+          dlBtn.target = '_blank';
+          dlBtn.rel = 'noopener noreferrer';
+          dlBtn.title = '前往网盘获取 ' + it.name;
+        } else {
+          dlBtn.setAttribute('download', '');
+          dlBtn.title = '下载 ' + it.name;
+        }
+      } else {
+        dlBtn.removeAttribute('href');
+        dlBtn.setAttribute('aria-disabled', 'true');
+        dlBtn.setAttribute('role', 'button');
+        dlBtn.title = TIP_UNAVAILABLE + '，无法下载：' + it.name;
+        dlBtn.style.opacity = '0.45';
+        dlBtn.style.cursor = 'not-allowed';
+        dlBtn.addEventListener('click', ev => {
+          ev.preventDefault();
+          flashTip(it, TIP_UNAVAILABLE + '，无法下载');
+        });
+      }
 
       actions.appendChild(playBtn);
       actions.appendChild(dlBtn);
 
-      item.appendChild(cover);
-      item.appendChild(info);
-      item.appendChild(actions);
-      listEl.appendChild(item);
+      row.appendChild(cover);
+      row.appendChild(info);
+      row.appendChild(actions);
+      listEl.appendChild(row);
     });
 
     // reveal 交错入场
@@ -108,10 +166,14 @@
   }
 
   function play(it) {
+    if (!isReady(it)) {
+      flashTip(it, TIP_UNAVAILABLE + '，无法播放');
+      return;
+    }
     currentPlay = it.rel_path;
     playerName.textContent = it.name;
     playerName.title = it.name;
-    audioEl.src = it.play_url;
+    audioEl.src = it._res.url;
     playerBar.hidden = false;
     audioEl.play().catch(() => { /* 用户后续可手动点击播放 */ });
 
@@ -129,7 +191,7 @@
     currentPlay = null;
   });
 
-  // 加载失败时让播放按钮/播放器复位
+  // 加载失败时让播放按钮/播放器复位（并提示原因，指向网盘或等待上传）
   audioEl.addEventListener('error', () => {
     listEl.querySelectorAll('.music-item.playing').forEach(el => el.classList.remove('playing'));
     currentPlay = null;
@@ -143,12 +205,16 @@
       loadingEl.hidden = true;
       const raw = (data && data.music !== undefined) ? data.music : data;
       const items = Array.isArray(raw) ? raw : [];
-      allItems = items;
       if (!items.length) {
+        allItems = [];
         emptyEl.hidden = false;
         updateSearchCount(0);
         return;
       }
+      // 统一解析每首曲目的可用地址（外链 > downloads/ 实体 > 待托管）
+      const map = await API.resolveAll(items.map(it => it.rel_path));
+      items.forEach(it => { it._res = map.get(it.rel_path) || { url: null }; });
+      allItems = items;
       renderList(items);
       updateSearchCount(items.length);
     } catch (err) {

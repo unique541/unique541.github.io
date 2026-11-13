@@ -46,59 +46,95 @@
   }
 
   /* ---------- 下载区 ---------- */
-  function buildDownloadZone(it) {
-    const zone = $('#dDownloadZone');
+  async function buildDownloadZone(it) {
+    const zone = document.getElementById('dDownloadZone');
+    if (!zone) return;
+    zone.innerHTML = '';
+
+    const res = await API.resolve(it.rel_path);
+
+    // 合集：引导至内部文件逐个下载；若整包已登记外链则额外提供网盘入口
     if (it.kind === 'folder') {
-      // 纯静态站点没有后端，无法在线打包 ZIP，改为引导逐个下载
-      zone.innerHTML = `
-        <div class="download-size">合集包含 <strong>${it.child_count}</strong> 项文件，请在下方「文件夹内部文件」中逐个下载。</div>`;
-    } else {
-      zone.innerHTML = `
-        <a class="btn btn-primary btn-glow" href="${API.downloadUrl(it.rel_path)}">
-          立即下载
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        </a>
-        <div class="download-size">文件大小 <strong>${it.size_text}</strong></div>`;
+      const hint = document.createElement('div');
+      hint.className = 'download-size';
+      hint.innerHTML = '合集包含 <strong>' + it.child_count + '</strong> 项文件，请在下方「文件夹内部文件」中逐个下载。';
+      zone.appendChild(hint);
+
+      if (res.url) {
+        const pkg = document.createElement('a');
+        pkg.className = 'btn btn-primary';
+        pkg.innerHTML = '<span data-res-label></span>';
+        zone.appendChild(pkg);
+        API.applyResolvedLink(pkg, res, { label: '前往网盘（整包）', unavailableLabel: '暂无整包下载' });
+      }
+      return;
     }
+
+    const meta = document.createElement('div');
+    meta.className = 'download-size';
+    meta.innerHTML = '文件大小 <strong>' + escapeHtml(it.size_text || API.formatSize(it.size)) + '</strong>';
+    zone.appendChild(meta);
+
+    // 单文件：有外链走网盘（新窗口打开），有实体走 downloads/，都没有则置灰不可点
+    const btn = document.createElement('a');
+    btn.className = 'btn btn-primary';
+    btn.innerHTML = '<span data-res-label></span>';
+    zone.appendChild(btn);
+    API.applyResolvedLink(btn, res, {
+      label: res.external ? '前往网盘获取' : '立即下载',
+      unavailableLabel: '暂无下载 · 待上传',
+    });
+    if (!res.url) btn.title = '该文件暂未上传，托管后可下载';
   }
 
   /* ---------- 文件夹内部文件列表（单文件下载） ---------- */
   async function buildInnerList(it) {
     if (it.kind !== 'folder') return;
-    const box = $('#dInnerFiles');
-    box.innerHTML = '<p class="inner-hint">正在加载内部文件…</p>';
-    $('#dInnerList').hidden = false;
-
-    let files = [];
-    try {
-      const childrenData = await API.getChildren();
-      const entry = childrenData[it.rel_path];
-      files = (entry && entry.files) ? entry.files : [];
-    } catch (e) {
-      box.innerHTML = '<p class="inner-hint">内部文件加载失败，请刷新重试</p>';
-      console.error(e);
-      return;
-    }
-
-    if (files.length === 0) {
-      box.innerHTML = '<p class="inner-hint">该合集暂无可单独下载的文件</p>';
-      return;
-    }
+    const box = document.getElementById('dInnerFiles');
+    if (!box) return;
 
     box.innerHTML = '';
-    files.forEach(f => {
-      const row = document.createElement('a');
-      row.className = 'inner-file';
-      row.href = API.downloadUrl(f.rel_path);
-      row.innerHTML = `
-        <span class="inner-file-name">${escapeHtml(f.name)}</span>
-        <span class="inner-file-meta">
-          <span class="tag tag-type">${f.type}</span>
-          <span class="inner-file-size">${f.size_text}</span>
-          <span class="inner-file-dl">下载</span>
-        </span>`;
-      box.appendChild(row);
-    });
+    try {
+      const children = await API.getChildren();
+      const entry = children && children[it.rel_path];
+      const files = (entry && entry.files) || [];
+      if (!files.length) {
+        box.innerHTML = '<div class="inner-file"><div class="inner-file-name">该合集暂无文件明细</div></div>';
+        return;
+      }
+
+      // 内部文件清单容器默认隐藏，出现文件明细时才展示
+      const wrap = document.getElementById('dInnerList');
+      if (wrap) wrap.hidden = false;
+
+      // 批量解析每个内部文件的最终地址（外链 > downloads/ 实体 > 待托管）
+      const map = await API.resolveAll(files.map(f => f.rel_path));
+
+      box.innerHTML = '';
+      files.forEach(f => {
+        const res = map.get(f.rel_path) || { url: null };
+        const a = document.createElement('a');
+        a.className = 'inner-file';
+        const typeText = f.type || (f.name && f.name.indexOf('.') > -1 ? f.name.split('.').pop() : 'file');
+        a.innerHTML =
+          '<div class="inner-file-name">' + escapeHtml(f.name) + '</div>' +
+          '<div class="inner-file-meta">' +
+            '<span class="tag-type">' + escapeHtml(String(typeText)) + '</span>' +
+            '<span class="inner-file-size">' + escapeHtml(f.size_text || API.formatSize(f.size)) + '</span>' +
+            '<span class="inner-file-dl" data-res-label></span>' +
+          '</div>';
+        box.appendChild(a);
+
+        API.applyResolvedLink(a, res, {
+          label: res.external ? '前往网盘' : '下载',
+          unavailableLabel: '待上传',
+        });
+        if (!res.url) a.title = '该文件暂未上传，托管后可下载';
+      });
+    } catch (e) {
+      box.innerHTML = '<div class="inner-file"><div class="inner-file-name">文件清单加载失败，请刷新重试</div></div>';
+      console.error('加载内部文件失败:', e);
+    }
   }
 
   /* ---------- 相关推荐 ---------- */
@@ -147,7 +183,7 @@
       $('#dMtime').textContent = API.formatTime(it.mtime);
       $('#dPath').textContent = it.rel_path;
       $('#dIntro').innerHTML = buildIntro(it);
-      buildDownloadZone(it);
+      await buildDownloadZone(it);
       await buildInnerList(it);
       buildRelated(it, data.resources || []);
 

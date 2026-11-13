@@ -15,6 +15,8 @@
     try {
       state.data = await API.getResources();
       state.items = state.data.resources || [];
+      // 一次性解析可用性（外链 / downloads 实体 / 待托管），供卡片标注下载状态
+      resolveMap = await API.resolveAll(state.items.map(x => x.rel_path));
       $('#loadingWrap').hidden = true;
       if (state.items.length === 0) {
         $('#emptyState').hidden = false;
@@ -87,6 +89,13 @@
   }
 
   /* ---------- 资源卡片 ---------- */
+  // 资源可用性映射（rel_path -> {url, external}），用于卡片标注「立即下载 / 待托管」
+  let resolveMap = new Map();
+  function isDownloadReady(it) {
+    const res = resolveMap.get(it.rel_path);
+    return !!(res && res.url);
+  }
+
   function buildCard(it) {
     const a = document.createElement('a');
     a.className = 'res-card';
@@ -102,7 +111,7 @@
       <p class="res-card-desc">${escapeHtml(it.desc)}</p>
       <div class="res-card-foot">
         <span class="res-size">${it.size_text || '-'}</span>
-        <span class="res-kind">${it.kind === 'folder' ? '进入合集' : '立即下载'}</span>
+        <span class="res-kind">${it.kind === 'folder' ? '进入合集' : (isDownloadReady(it) ? '立即下载' : '待托管')}</span>
       </div>`;
     return a;
   }

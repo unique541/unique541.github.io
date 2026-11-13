@@ -1,0 +1,8 @@
+{
+  "_comment": "外链映射表：键 = 资源相对路径（rel_path，与 resources.json / children.json / music.json 中的 rel_path 完全一致），值 = 网盘分享链接（可带提取码说明）。以 _ 开头的键为说明项，程序自动忽略。未在此表登记、且 downloads/ 下也没有实体文件的资源，页面会显示「待托管」且不发出任何请求。",
+  "_format": {
+    "音乐/海阔天空.flac": "https://pan.baidu.com/s/1xxxxxx 提取码: abcd",
+    "自制软件/setup.exe": "https://pan.quark.cn/s/xxxxxxx",
+    "某个合集/某文件.zip": "https://www.123pan.com/s/xxxxxxx"
+  }
+}
