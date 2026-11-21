@@ -95,4 +95,4 @@ python build_static.py
 ├── build_static.py          数据快照生成脚本
 └── start_server.py          本地预览服务（页面脚本不依赖）
 ```
-*（内容由AI生成，仅供参考）*
+
